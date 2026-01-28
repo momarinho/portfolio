@@ -1,0 +1,206 @@
+{
+  "en": {
+    "profile": {
+      "name": "Mateus Marinho",
+      "role": "Automation Warrior & AI Developer",
+      "email": "mateusomarinho@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/momarinho94/",
+      "github": "https://github.com/momarinho"
+    },
+    "about": [
+      "Specialized in forging robust automation pipelines and intelligent agents for real-world businesses.",
+      "Bridges the gap between complex AI logic and scalable production systems.",
+      "Experience with conquering web depths and commanding autonomous agents.",
+      "Current status: Open to Work."
+    ],
+    "skills": {
+      "core": [
+        "Python",
+        "DOE Framework",
+        "Agentic AI",
+        "Web Scraping"
+      ],
+      "support": [
+        "REST APIs",
+        "Google Cloud",
+        "Playwright",
+        "Modal",
+        "PostgreSQL"
+      ],
+      "frontline": [
+        "React/Next.js",
+        "TypeScript",
+        "UI/UX Basics",
+        "TailwindCSS"
+      ]
+    },
+    "projects": [
+      {
+        "name": "lead-scraper-doe",
+        "description": "Scraping engine with DOE architecture. Google Maps integration and intelligent retries.",
+        "tech": "Python, DOE, Pydantic"
+      },
+      {
+        "name": "doc_ai_doe",
+        "description": "Document analysis pipeline using LLMs and computer vision for structured data extraction.",
+        "tech": "Python, LLMs, OCR"
+      },
+      {
+        "name": "proposal_engine_doe",
+        "description": "Auto-generation of commercial proposals based on research data.",
+        "tech": "Python, NLP"
+      },
+      {
+        "name": "deep_research_sales_builder",
+        "description": "Agent for deep prospect research creating detailed dossiers.",
+        "tech": "Agentic AI, Web Search"
+      },
+      {
+        "name": "agentic_seo_analyzer",
+        "description": "SEO audit tool driven by agents.",
+        "tech": "Python, SEO APIs"
+      },
+      {
+        "name": "fractal-ride",
+        "description": "Frontend for e-commerce focusing on UX.",
+        "tech": "Next.js, TypeScript"
+      }
+    ]
+  },
+  "pt": {
+    "profile": {
+      "name": "Mateus Marinho",
+      "role": "Guerreiro da Automação & Desenvolvedor IA",
+      "email": "mateusomarinho@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/momarinho94/",
+      "github": "https://github.com/momarinho"
+    },
+    "about": [
+      "Especializado em forjar pipelines de automação robustos e agentes inteligentes.",
+      "Crio a ponte entre lógica de IA complexa e produção.",
+      "Experiência em conquistar a web e comandar agentes autônomos.",
+      "Status atual: Disponivel para trabalho."
+    ],
+    "skills": {
+      "core": [
+        "Python",
+        "DOE Framework",
+        "Agentic AI",
+        "Web Scraping"
+      ],
+      "support": [
+        "REST APIs",
+        "Google Cloud",
+        "Playwright",
+        "Modal",
+        "PostgreSQL"
+      ],
+      "frontline": [
+        "React/Next.js",
+        "TypeScript",
+        "UI/UX Basics",
+        "TailwindCSS"
+      ]
+    },
+    "projects": [
+      {
+        "name": "lead-scraper-doe",
+        "description": "Motor de scraping com arquitetura DOE. Integração Google Maps e retries.",
+        "tech": "Python, DOE, Pydantic"
+      },
+      {
+        "name": "doc_ai_doe",
+        "description": "Pipeline de análise documental com LLMs e visão computacional.",
+        "tech": "Python, LLMs, OCR"
+      },
+      {
+        "name": "proposal_engine_doe",
+        "description": "Geração automática de propostas comerciais baseadas em dados.",
+        "tech": "Python, NLP"
+      },
+      {
+        "name": "deep_research_sales_builder",
+        "description": "Agente para pesquisa profunda de prospects, criando dossiês.",
+        "tech": "Agentic AI, Web Search"
+      },
+      {
+        "name": "agentic_seo_analyzer",
+        "description": "Ferramenta de auditoria SEO guiada por agentes.",
+        "tech": "Python, SEO APIs"
+      },
+      {
+        "name": "fractal-ride",
+        "description": "Frontend para e-commerce focado em UX.",
+        "tech": "Next.js, TypeScript"
+      }
+    ]
+  },
+  "es": {
+    "profile": {
+      "name": "Mateus Marinho",
+      "role": "Guerrero de Automatización y Desarrollador IA",
+      "email": "mateusomarinho@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/momarinho94/",
+      "github": "https://github.com/momarinho"
+    },
+    "about": [
+      "Especializado en forjar pipelines de automatización robustos y agentes inteligentes.",
+      "Cubro la brecha entre lógica de IA compleja y sistemas de producción.",
+      "Experiencia conquistando la web y comandando agentes autónomos.",
+      "Estado actual: Disponible para trabajar."
+    ],
+    "skills": {
+      "core": [
+        "Python",
+        "DOE Framework",
+        "Agentic AI",
+        "Web Scraping"
+      ],
+      "support": [
+        "REST APIs",
+        "Google Cloud",
+        "Playwright",
+        "Modal",
+        "PostgreSQL"
+      ],
+      "frontline": [
+        "React/Next.js",
+        "TypeScript",
+        "UI/UX Basics",
+        "TailwindCSS"
+      ]
+    },
+    "projects": [
+      {
+        "name": "lead-scraper-doe",
+        "description": "Motor de scraping con arquitectura DOE. Integración Google Maps y reintentos.",
+        "tech": "Python, DOE, Pydantic"
+      },
+      {
+        "name": "doc_ai_doe",
+        "description": "Pipeline de análisis documental con LLMs y visión por computadora.",
+        "tech": "Python, LLMs, OCR"
+      },
+      {
+        "name": "proposal_engine_doe",
+        "description": "Generación automática de propuestas comerciales basadas en datos.",
+        "tech": "Python, NLP"
+      },
+      {
+        "name": "deep_research_sales_builder",
+        "description": "Agente para investigación profunda de prospectos.",
+        "tech": "Agentic AI, Web Search"
+      },
+      {
+        "name": "agentic_seo_analyzer",
+        "description": "Herramienta de auditoría SEO guiada por agentes.",
+        "tech": "Python, SEO APIs"
+      },
+      {
+        "name": "fractal-ride",
+        "description": "Frontend para e-commerce enfocado en UX.",
+        "tech": "Next.js, TypeScript"
+      }
+    ]
+  }
+}
