@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { useLanguage } from "@/context/LanguageContext";
 
 const skillsList = {
-    core: ["Python", "DOE Framework", "Agentic AI", "Web Scraping"],
+    core: ["Python", "n8n / Workflow", "DOE Framework", "Agentic AI", "Web Scraping"],
     support: ["REST APIs", "Google Cloud", "Playwright", "Modal", "PostgreSQL"],
     frontline: ["React/Next.js", "TypeScript", "UI/UX Basics", "TailwindCSS"]
 };
