@@ -2,207 +2,174 @@
   "en": {
     "profile": {
       "name": "Mateus Marinho",
-      "role": "Automation Warrior & AI Developer",
+      "role": "Flutter & Full-Stack Developer",
       "email": "mateusomarinho@gmail.com",
       "linkedin": "https://www.linkedin.com/in/momarinho94/",
       "github": "https://github.com/momarinho"
     },
     "about": [
-      "Specialized in forging robust automation pipelines and intelligent agents for real-world businesses.",
-      "Bridges the gap between complex AI logic and scalable production systems.",
-      "Experience with conquering web depths and commanding autonomous agents.",
+      "Specialized in creating complex mobile applications with native integrations, ML, and scalable architecture.",
+      "Experienced in cross-platform production projects and transitioning from full-stack web development.",
+      "Bridging the gap between complex logic and scalable mobile systems.",
       "Current status: Open to Work."
     ],
     "skills": {
       "core": [
-        "Python",
-        "n8n",
-        "DOE Framework",
-        "Agentic AI",
-        "Web Scraping"
+        "Flutter/Dart",
+        "Riverpod/Provider/BLoC",
+        "Hive/SQLite",
+        "Google ML Kit",
+        "Camera & Native APIs"
       ],
       "support": [
         "REST APIs",
-        "Google Cloud",
-        "Playwright",
-        "Modal",
-        "PostgreSQL"
+        "Firebase",
+        "SQL/NoSQL",
+        "n8n/Automation"
       ],
       "frontline": [
-        "React/Next.js",
+        "Next.js",
+        "React",
         "TypeScript",
-        "UI/UX Basics",
-        "TailwindCSS"
+        "Tailwind CSS"
       ]
     },
     "projects": [
       {
+        "name": "cat_diet_planner",
+        "description": "Nutritional planning app for cats allowing tutors to manage diet, feeding schedules, photo history, and generate vet reports.",
+        "tech": "Flutter, Riverpod, Hive, Google ML Kit"
+      },
+      {
+        "name": "RepEngine",
+        "description": "[In private development, pending public release]",
+        "tech": "Flutter, Backend"
+      },
+      {
         "name": "lead-scraper-doe",
-        "description": "Scraping engine with DOE architecture. Google Maps integration and intelligent retries.",
+        "description": "Legacy Web Project: Scraping engine with DOE architecture. Google Maps integration and intelligent retries.",
         "tech": "Python, DOE, Pydantic"
       },
       {
         "name": "doc_ai_doe",
-        "description": "Document analysis pipeline using LLMs and computer vision for structured data extraction.",
+        "description": "Legacy Web Project: Document analysis pipeline using LLMs and computer vision for structured data extraction.",
         "tech": "Python, LLMs, OCR"
-      },
-      {
-        "name": "proposal_engine_doe",
-        "description": "Auto-generation of commercial proposals based on research data.",
-        "tech": "Python, NLP"
-      },
-      {
-        "name": "deep_research_sales_builder",
-        "description": "Agent for deep prospect research creating detailed dossiers.",
-        "tech": "Agentic AI, Web Search"
-      },
-      {
-        "name": "agentic_seo_analyzer",
-        "description": "SEO audit tool driven by agents.",
-        "tech": "Python, SEO APIs"
-      },
-      {
-        "name": "fractal-ride",
-        "description": "Frontend for e-commerce focusing on UX.",
-        "tech": "Next.js, TypeScript"
       }
     ]
   },
   "pt": {
     "profile": {
       "name": "Mateus Marinho",
-      "role": "Guerreiro da Automação & Desenvolvedor IA",
+      "role": "Desenvolvedor Flutter & Full-Stack",
       "email": "mateusomarinho@gmail.com",
       "linkedin": "https://www.linkedin.com/in/momarinho94/",
       "github": "https://github.com/momarinho"
     },
     "about": [
-      "Especializado em forjar pipelines de automação robustos e agentes inteligentes.",
-      "Crio a ponte entre lógica de IA complexa e produção.",
-      "Experiência em conquistar a web e comandar agentes autônomos.",
-      "Status atual: Disponivel para trabalho."
+      "Especializado em criar aplicações mobile complexas com integrações nativas, ML e arquitetura escalável.",
+      "Experiência comprovada em projetos cross-platform de produção, em transição de desenvolvimento full-stack web.",
+      "Crio a ponte entre lógica complexa e sistemas mobile escaláveis.",
+      "Status atual: Disponível para trabalho."
     ],
     "skills": {
       "core": [
-        "Python",
-        "n8n",
-        "DOE Framework",
-        "Agentic AI",
-        "Web Scraping"
+        "Flutter/Dart",
+        "Riverpod/Provider/BLoC",
+        "Hive/SQLite",
+        "Google ML Kit",
+        "Camera & Native APIs"
       ],
       "support": [
         "REST APIs",
-        "Google Cloud",
-        "Playwright",
-        "Modal",
-        "PostgreSQL"
+        "Firebase",
+        "SQL/NoSQL",
+        "n8n/Automation"
       ],
       "frontline": [
-        "React/Next.js",
+        "Next.js",
+        "React",
         "TypeScript",
-        "UI/UX Basics",
-        "TailwindCSS"
+        "Tailwind CSS"
       ]
     },
     "projects": [
       {
+        "name": "cat_diet_planner",
+        "description": "Aplicativo de planejamento nutricional para gatos que permite gerenciar dieta, horários, histórico fotográfico e gerar relatórios em PDF.",
+        "tech": "Flutter, Riverpod, Hive, Google ML Kit"
+      },
+      {
+        "name": "RepEngine",
+        "description": "[Em desenvolvimento privado, será adicionado futuramente]",
+        "tech": "Flutter, Backend"
+      },
+      {
         "name": "lead-scraper-doe",
-        "description": "Motor de scraping com arquitetura DOE. Integração Google Maps e retries.",
+        "description": "Projeto Web Legacy: Motor de scraping com arquitetura DOE. Integração Google Maps e retries.",
         "tech": "Python, DOE, Pydantic"
       },
       {
         "name": "doc_ai_doe",
-        "description": "Pipeline de análise documental com LLMs e visão computacional.",
+        "description": "Projeto Web Legacy: Pipeline de análise documental com LLMs e visão computacional.",
         "tech": "Python, LLMs, OCR"
-      },
-      {
-        "name": "proposal_engine_doe",
-        "description": "Geração automática de propostas comerciais baseadas em dados.",
-        "tech": "Python, NLP"
-      },
-      {
-        "name": "deep_research_sales_builder",
-        "description": "Agente para pesquisa profunda de prospects, criando dossiês.",
-        "tech": "Agentic AI, Web Search"
-      },
-      {
-        "name": "agentic_seo_analyzer",
-        "description": "Ferramenta de auditoria SEO guiada por agentes.",
-        "tech": "Python, SEO APIs"
-      },
-      {
-        "name": "fractal-ride",
-        "description": "Frontend para e-commerce focado em UX.",
-        "tech": "Next.js, TypeScript"
       }
     ]
   },
   "es": {
     "profile": {
       "name": "Mateus Marinho",
-      "role": "Guerrero de Automatización y Desarrollador IA",
+      "role": "Desarrollador Flutter & Full-Stack",
       "email": "mateusomarinho@gmail.com",
       "linkedin": "https://www.linkedin.com/in/momarinho94/",
       "github": "https://github.com/momarinho"
     },
     "about": [
-      "Especializado en forjar pipelines de automatización robustos y agentes inteligentes.",
-      "Cubro la brecha entre lógica de IA compleja y sistemas de producción.",
-      "Experiencia conquistando la web y comandando agentes autónomos.",
+      "Especializado en crear aplicaciones móviles complejas con integraciones nativas, ML y arquitectura escalable.",
+      "Experiencia comprobada en proyectos cross-platform de producción, en transición del desarrollo full-stack web.",
+      "Cubro la brecha entre lógica compleja y sistemas móviles escalables.",
       "Estado actual: Disponible para trabajar."
     ],
     "skills": {
       "core": [
-        "Python",
-        "n8n",
-        "DOE Framework",
-        "Agentic AI",
-        "Web Scraping"
+        "Flutter/Dart",
+        "Riverpod/Provider/BLoC",
+        "Hive/SQLite",
+        "Google ML Kit",
+        "Camera & Native APIs"
       ],
       "support": [
         "REST APIs",
-        "Google Cloud",
-        "Playwright",
-        "Modal",
-        "PostgreSQL"
+        "Firebase",
+        "SQL/NoSQL",
+        "n8n/Automation"
       ],
       "frontline": [
-        "React/Next.js",
+        "Next.js",
+        "React",
         "TypeScript",
-        "UI/UX Basics",
-        "TailwindCSS"
+        "Tailwind CSS"
       ]
     },
     "projects": [
       {
+        "name": "cat_diet_planner",
+        "description": "Aplicación de planificación nutricional para gatos que permite gestionar dieta, horarios, historial fotográfico y generar informes PDF.",
+        "tech": "Flutter, Riverpod, Hive, Google ML Kit"
+      },
+      {
+        "name": "RepEngine",
+        "description": "[En desarrollo privado, pendiente de lanzamiento público]",
+        "tech": "Flutter, Backend"
+      },
+      {
         "name": "lead-scraper-doe",
-        "description": "Motor de scraping con arquitectura DOE. Integración Google Maps y reintentos.",
+        "description": "Proyecto Web Legacy: Motor de scraping con arquitectura DOE. Integración Google Maps y reintentos.",
         "tech": "Python, DOE, Pydantic"
       },
       {
         "name": "doc_ai_doe",
-        "description": "Pipeline de análisis documental con LLMs y visión por computadora.",
+        "description": "Proyecto Web Legacy: Pipeline de análisis documental con LLMs y visión por computadora.",
         "tech": "Python, LLMs, OCR"
-      },
-      {
-        "name": "proposal_engine_doe",
-        "description": "Generación automática de propuestas comerciales basadas en datos.",
-        "tech": "Python, NLP"
-      },
-      {
-        "name": "deep_research_sales_builder",
-        "description": "Agente para investigación profunda de prospectos.",
-        "tech": "Agentic AI, Web Search"
-      },
-      {
-        "name": "agentic_seo_analyzer",
-        "description": "Herramienta de auditoría SEO guiada por agentes.",
-        "tech": "Python, SEO APIs"
-      },
-      {
-        "name": "fractal-ride",
-        "description": "Frontend para e-commerce enfocado en UX.",
-        "tech": "Next.js, TypeScript"
       }
     ]
   }

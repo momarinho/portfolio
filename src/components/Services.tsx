@@ -8,18 +8,9 @@ export function Services() {
     const { t } = useLanguage();
 
     const services = [
-        {
-            ...t.services.items.leadGen,
-            difficulty: "High"
-        },
-        {
-            ...t.services.items.docIntel,
-            difficulty: "Medium"
-        },
-        {
-            ...t.services.items.seo,
-            difficulty: "High"
-        }
+        { ...t.services.items.mobileDev, difficulty: "High" },
+        { ...t.services.items.nativeIntel, difficulty: "High" },
+        { ...t.services.items.architecture, difficulty: "Medium" }
     ];
 
     return (

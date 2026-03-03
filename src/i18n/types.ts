@@ -49,20 +49,18 @@ export interface Translations {
         title: string;
         subtitle: string;
         items: {
-            leadGen: { title: string; desc: string; reward: string };
-            docIntel: { title: string; desc: string; reward: string };
-            seo: { title: string; desc: string; reward: string };
+            mobileDev: { title: string; desc: string; reward: string };
+            nativeIntel: { title: string; desc: string; reward: string };
+            architecture: { title: string; desc: string; reward: string };
         };
     };
     projects: {
         title: string;
         items: {
+            catDietPlanner: { type: string; desc: string; bullets: string[] };
+            repEngine: { type: string; desc: string; bullets: string[] };
             leadScraper: { type: string; desc: string; bullets: string[] };
             docAi: { type: string; desc: string; bullets: string[] };
-            proposalEngine: { type: string; desc: string; bullets: string[] };
-            deepResearch: { type: string; desc: string; bullets: string[] };
-            seoAnalyzer: { type: string; desc: string; bullets: string[] };
-            fractalRide: { type: string; desc: string; bullets: string[] };
         };
     };
     guild: {
@@ -81,4 +79,4 @@ export interface Translations {
             github: string;
         };
     };
-}
+};
