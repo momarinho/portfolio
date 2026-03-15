@@ -1,110 +1,143 @@
-import { Translations } from '../types';
+import { Translations } from "../types";
 
 export const pt: Translations = {
-    common: {
-        start: 'Iniciar',
-        loading: 'Carregando...',
-        enableAudio: '(Ative o áudio para melhor experiência)',
-        viewQuest: 'VER QUEST',
-        activeQuests: 'QUESTS ATIVAS',
-        rank: 'Rank',
-        reward: 'RECOMPENSA',
-        xp: 'XP'
+  common: {
+    start: "Iniciar",
+    loading: "Carregando...",
+    enableAudio: "(Ative o áudio para melhor experiência)",
+    viewQuest: "VER QUEST",
+    activeQuests: "QUESTS ATIVAS",
+    rank: "Rank",
+    reward: "RECOMPENSA",
+    xp: "XP",
+  },
+  nav: {
+    status: "STATUS",
+    skills: "SKILLS",
+    services: "MISSOES",
+    log: "DIARIO",
+    guild: "GUILDA",
+  },
+  startScreen: {
+    role: "Flutter, Dart, TypeScript, Next.js, Laravel & Docker",
+    pressStart: "PRESS START",
+  },
+  hud: {
+    level: "NIV27",
+    class: "FLUTTER / DART / DEVOPS",
+    hp: "HP (Café)",
+    mp: "SP (Estamina)",
+  },
+  character: {
+    title: "FICHA DE PERSONAGEM",
+    classLabel: "CLASSE",
+    specialtyLabel: "ESPECIALIDADE",
+    bioLabel: "BIO",
+    bioText1:
+      "Atuo com Flutter e Dart para produtos cross-platform, mantendo tambem experiencia pratica com TypeScript, Next.js, Laravel e Docker no dia a dia.",
+    bioText2:
+      "Meu foco atual combina desenvolvimento Flutter/Dart com trabalho em TypeScript/Next.js, Laravel e Docker para deploy, hosting e operacao em producao.",
+    currentStatus: "STATUS ATUAL",
+    statusValue: "FLUTTER / DART COM TYPESCRIPT, NEXT.JS, LARAVEL E DOCKER",
+    attributesTitle: "ATRIBUTOS",
+  },
+  skills: {
+    title: "ARVORE DE HABILIDADES",
+    core: "DISCIPLINA CENTRAL",
+    support: "SUPORTE",
+    frontline: "LINHA DE FRENTE",
+  },
+  services: {
+    title: "QUESTS DISPONIVEIS",
+    subtitle: "Serviços e Soluções Oferecidos",
+    items: {
+      mobileDev: {
+        title: "Desenvolvimento Mobile",
+        desc: "Aplicações cross-platform usando Flutter e Dart.",
+        reward: "Apps de Alta Performance",
+      },
+      nativeIntel: {
+        title: "Integrações Nativas & ML",
+        desc: "Implementação de Google ML Kit e APIs nativas no mobile.",
+        reward: "Funcionalidades Avançadas",
+      },
+      architecture: {
+        title: "Arquitetura Escalável",
+        desc: "Clean architecture, gerenciamento de estado Riverpod.",
+        reward: "Código Sustentável",
+      },
     },
-    nav: {
-        status: 'STATUS',
-        skills: 'SKILLS',
-        services: 'MISSOES',
-        log: 'DIARIO',
-        guild: 'GUILDA'
+  },
+  projects: {
+    title: "DIARIO DE QUESTS",
+    items: {
+      catDietPlanner: {
+        type: "Quest Principal - Flutter / Cross-Platform",
+        desc: "Seu projeto mais recente e ativo, atualizado em 15/03/2026, com proposta real de produto para planejamento nutricional felino.",
+        bullets: [
+          "Dart, Flutter, Riverpod",
+          "Deploy em Vercel e Firebase Hosting",
+          "Produto real com foco mobile",
+        ],
+      },
+      gacha: {
+        type: "Quest Forte - Web Dev Criativo",
+        desc: "Projeto em TypeScript com conceito de gacha, unindo frontend e mecanicas inspiradas em jogos para abrir boas conversas tecnicas.",
+        bullets: [
+          "TypeScript",
+          "Deploy no Vercel",
+          "Tema criativo com apelo gamer",
+        ],
+      },
+      fractalRide: {
+        type: "Quest Forte - Frontend Visual",
+        desc: "Projeto visual com fractais que demonstra criatividade, senso estetico e dominio pratico de TypeScript/frontend.",
+        bullets: [
+          "TypeScript",
+          "Deploy funcional",
+          "Projeto visualmente marcante",
+        ],
+      },
+      portfolio: {
+        type: "Quest Forte - Vitrine Profissional",
+        desc: "Seu portfolio em TypeScript no Vercel, organizado para apresentar os demais projetos com links e descricoes consistentes.",
+        bullets: ["TypeScript", "Deploy no Vercel", "Hub central dos projetos"],
+      },
+      agenticSeoAnalyzer: {
+        type: "Quest Tecnica - Automacao / IA",
+        desc: "Projeto em Python com foco em AI agentica para SEO, mostrando interesse pratico em uma area muito atual.",
+        bullets: [
+          "Python",
+          "AI agentica para SEO",
+          "Diferencial tecnico atual",
+        ],
+      },
+      proposalEngineDoe: {
+        type: "Quest Tecnica - Automacao de Processos",
+        desc: "Caso de uso real para geracao de propostas, bom para demonstrar automacao orientada a negocio.",
+        bullets: ["Python", "Geracao de propostas", "Licenca definida"],
+      },
+      chronoOrion: {
+        type: "Quest Tecnica - Diversidade de Stack",
+        desc: "Projeto em Python de porte relevante que reforca variedade de stack e capacidade alem do frontend/mobile.",
+        bullets: ["Python", "Projeto de porte decente", "Diversidade tecnica"],
+      },
     },
-    startScreen: {
-        role: 'Desenvolvedor Flutter & Full-Stack',
-        pressStart: 'PRESS START'
+  },
+  guild: {
+    title: "GUILDA",
+    intro: "Junte-se ao grupo para discutir sua próxima automação épica.",
+    form: {
+      sendMessage: "ENVIAR MENSAGEM",
+      namePlaceholder: "NOME DO PLAYER",
+      emailPlaceholder: "COMM-LINK (EMAIL)",
+      messagePlaceholder: "DETALHES DA QUEST...",
+      submit: "TRANSMITIR",
     },
-    hud: {
-        level: 'NIV27',
-        class: 'DESENVOLVEDOR FLUTTER',
-        hp: 'HP (Café)',
-        mp: 'SP (Estamina)'
+    socials: {
+      email: "EMAIL",
+      linkedin: "LINKEDIN",
+      github: "GITHUB",
     },
-    character: {
-        title: 'FICHA DE PERSONAGEM',
-        classLabel: 'CLASSE',
-        specialtyLabel: 'ESPECIALIDADE',
-        bioLabel: 'BIO',
-        bioText1: 'Especializado em criar aplicações mobile complexas com integrações nativas, ML e arquitetura escalável. Eu crio a ponte entre lógica complexa e sistemas mobile escaláveis.',
-        bioText2: 'Experiência comprovada em projetos cross-platform de produção, em transição de desenvolvimento full-stack web para maestria mobile.',
-        currentStatus: 'STATUS ATUAL',
-        statusValue: 'DISPONÍVEL PARA TRABALHO',
-        attributesTitle: 'ATRIBUTOS'
-    },
-    skills: {
-        title: 'ARVORE DE HABILIDADES',
-        core: 'DISCIPLINA CENTRAL',
-        support: 'SUPORTE',
-        frontline: 'LINHA DE FRENTE'
-    },
-    services: {
-        title: 'QUESTS DISPONIVEIS',
-        subtitle: 'Serviços e Soluções Oferecidos',
-        items: {
-            mobileDev: {
-                title: 'Desenvolvimento Mobile',
-                desc: 'Aplicações cross-platform usando Flutter e Dart.',
-                reward: 'Apps de Alta Performance'
-            },
-            nativeIntel: {
-                title: 'Integrações Nativas & ML',
-                desc: 'Implementação de Google ML Kit e APIs nativas no mobile.',
-                reward: 'Funcionalidades Avançadas'
-            },
-            architecture: {
-                title: 'Arquitetura Escalável',
-                desc: 'Clean architecture, gerenciamento de estado Riverpod.',
-                reward: 'Código Sustentável'
-            }
-        }
-    },
-    projects: {
-        title: 'DIARIO DE QUESTS',
-        items: {
-            catDietPlanner: {
-                type: 'Quest Central – App Mobile Flutter',
-                desc: 'Aplicativo de planejamento nutricional para gatos que permite gerenciar dieta, horários, histórico fotográfico e gerar relatórios em PDF.',
-                bullets: ['Flutter, Riverpod, Hive', 'Google ML Kit (Reconhecimento)', 'Geração PDF, Notificações']
-            },
-            repEngine: {
-                type: 'Quest – App Mobile (Em Desenvolvimento)',
-                desc: '[Pendente lançamento público] Foco em lógicas de negócio complexas e UI reativa.',
-                bullets: ['Flutter', 'Gerenciamento de Estado Avançado', 'Clean Architecture']
-            },
-            leadScraper: {
-                type: 'Quest Web Legacy – Motor de Lead Generation',
-                desc: 'Motor de scraping com arquitetura DOE. Integração Google Maps e retries inteligentes.',
-                bullets: ['Python, DOE, Pydantic', 'Orquestração Robusta', 'Scraping Tolerante']
-            },
-            docAi: {
-                type: 'Quest Web Legacy – Inteligência Documental',
-                desc: 'Pipeline de processamento de documentos com extração usando LLMs.',
-                bullets: ['Análise de PDFs Complexos', 'LLMs, OCR', 'Alta Precisão']
-            }
-        }
-    },
-    guild: {
-        title: 'GUILDA',
-        intro: "Junte-se ao grupo para discutir sua próxima automação épica.",
-        form: {
-            sendMessage: 'ENVIAR MENSAGEM',
-            namePlaceholder: 'NOME DO PLAYER',
-            emailPlaceholder: 'COMM-LINK (EMAIL)',
-            messagePlaceholder: 'DETALHES DA QUEST...',
-            submit: 'TRANSMITIR'
-        },
-        socials: {
-            email: 'EMAIL',
-            linkedin: 'LINKEDIN',
-            github: 'GITHUB'
-        }
-    }
+  },
 };

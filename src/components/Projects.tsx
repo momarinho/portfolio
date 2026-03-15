@@ -12,27 +12,46 @@ export function Projects() {
   const projectsData = [
     {
       id: "cat_diet_planner",
-      stack: "Flutter, Riverpod, ML Kit, Hive",
+      stack: "Dart, Flutter, Riverpod, Firebase, Vercel",
       link: "https://github.com/momarinho/cat_diet_planner",
       translation: t.projects.items.catDietPlanner,
+      featured: true,
     },
     {
-      id: "RepEngine",
-      stack: "Flutter, Clean Architecture",
-      link: "#",
-      translation: t.projects.items.repEngine,
+      id: "gacha",
+      stack: "TypeScript, Vercel",
+      link: "https://github.com/momarinho/gacha",
+      translation: t.projects.items.gacha,
     },
     {
-      id: "lead-scraper-doe",
-      stack: "Python, DOE, Pydantic, Maps API",
-      link: "https://github.com/momarinho/lead-scraper-doe",
-      translation: t.projects.items.leadScraper,
+      id: "fractal-ride",
+      stack: "TypeScript, Frontend",
+      link: "https://github.com/momarinho/fractal-ride",
+      translation: t.projects.items.fractalRide,
     },
     {
-      id: "doc_ai_doe",
-      stack: "Python, LLMs, OCR",
-      link: "https://github.com/momarinho/doc_ai_doe",
-      translation: t.projects.items.docAi,
+      id: "portfolio",
+      stack: "TypeScript, Next.js, Vercel",
+      link: "https://github.com/momarinho/portfolio",
+      translation: t.projects.items.portfolio,
+    },
+    {
+      id: "agentic_seo_analyzer",
+      stack: "Python, AI, SEO",
+      link: "https://github.com/momarinho/agentic_seo_analyzer",
+      translation: t.projects.items.agenticSeoAnalyzer,
+    },
+    {
+      id: "proposal_engine_doe",
+      stack: "Python, Automation",
+      link: "https://github.com/momarinho/proposal_engine_doe",
+      translation: t.projects.items.proposalEngineDoe,
+    },
+    {
+      id: "chrono-orion",
+      stack: "Python",
+      link: "https://github.com/momarinho/chrono-orion",
+      translation: t.projects.items.chronoOrion,
     },
   ];
 
@@ -52,23 +71,41 @@ export function Projects() {
         {projectsData.map((project) => (
           <div
             key={project.id}
-            className="pixel-card bg-[#1a1a2e] p-6 group hover:bg-[#20203a] transition-colors"
+            className={`pixel-card p-6 group transition-colors ${
+              project.featured
+                ? "md:col-span-2 bg-[#231533] border-2 border-[#ffd700] hover:bg-[#2b1b40]"
+                : "bg-[#1a1a2e] hover:bg-[#20203a]"
+            }`}
           >
             <div className="flex justify-between items-start mb-4">
               <div>
-                <span className="text-xs font-bold text-[#b026ff] uppercase tracking-wider block mb-1">
+                <span
+                  className={`text-xs font-bold uppercase tracking-wider block mb-1 ${
+                    project.featured ? "text-[#ffd700]" : "text-[#b026ff]"
+                  }`}
+                >
                   {project.translation.type}
                 </span>
                 <h3 className="font-press-start text-white text-lg md:text-xl line-clamp-1">
                   {project.id}
                 </h3>
               </div>
-              <div className="bg-[#b026ff] text-black text-xs px-2 py-1 font-bold shrink-0 ml-2">
-                {t.common.xp} +500
+              <div
+                className={`text-black text-xs px-2 py-1 font-bold shrink-0 ml-2 ${
+                  project.featured ? "bg-[#ffd700]" : "bg-[#b026ff]"
+                }`}
+              >
+                {t.common.xp} {project.featured ? "+1200" : "+500"}
               </div>
             </div>
 
-            <p className="font-vt323 text-xl text-gray-300 mb-6 min-h-[3rem]">
+            <p
+              className={`font-vt323 text-xl text-gray-300 mb-6 ${
+                project.featured
+                  ? "min-h-[4.5rem] md:max-w-[80%]"
+                  : "min-h-[3rem]"
+              }`}
+            >
               {project.translation.desc}
             </p>
 

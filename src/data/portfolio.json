@@ -2,16 +2,16 @@
   "en": {
     "profile": {
       "name": "Mateus Marinho",
-      "role": "Flutter & Full-Stack Developer",
+      "role": "Flutter, Dart, TypeScript, Next.js, Laravel & Docker",
       "email": "mateusomarinho@gmail.com",
       "linkedin": "https://www.linkedin.com/in/momarinho94/",
       "github": "https://github.com/momarinho"
     },
     "about": [
-      "Specialized in creating complex mobile applications with native integrations, ML, and scalable architecture.",
-      "Experienced in cross-platform production projects and transitioning from full-stack web development.",
-      "Bridging the gap between complex logic and scalable mobile systems.",
-      "Current status: Open to Work."
+      "I work with Flutter and Dart for cross-platform products while also using TypeScript, Next.js, Laravel, and Docker in day-to-day delivery.",
+      "Current work combines Flutter/Dart development with TypeScript/Next.js, Laravel, and Docker for deployment and production operations.",
+      "Bridging product thinking, mobile execution, and production delivery.",
+      "Current status: Flutter / Dart with TypeScript, Next.js, Laravel, and Docker."
     ],
     "skills": {
       "core": [
@@ -21,55 +21,60 @@
         "Google ML Kit",
         "Camera & Native APIs"
       ],
-      "support": [
-        "REST APIs",
-        "Firebase",
-        "SQL/NoSQL",
-        "n8n/Automation"
-      ],
-      "frontline": [
-        "Next.js",
-        "React",
-        "TypeScript",
-        "Tailwind CSS"
-      ]
+      "support": ["REST APIs", "Firebase", "SQL/NoSQL", "n8n/Automation"],
+      "frontline": ["Next.js", "React", "TypeScript", "Tailwind CSS"]
     },
     "projects": [
       {
         "name": "cat_diet_planner",
-        "description": "Nutritional planning app for cats allowing tutors to manage diet, feeding schedules, photo history, and generate vet reports.",
-        "tech": "Flutter, Riverpod, Hive, Google ML Kit"
+        "description": "Most recent active project, updated on March 15, 2026, with a real product direction focused on feline nutrition planning across platforms.",
+        "tech": "Dart, Flutter, Riverpod, Firebase Hosting, Vercel"
       },
       {
-        "name": "RepEngine",
-        "description": "[In private development, pending public release]",
-        "tech": "Flutter, Backend"
+        "name": "gacha",
+        "description": "Creative TypeScript project built around a gacha concept, connecting frontend execution with game-inspired interaction.",
+        "tech": "TypeScript, Vercel"
       },
       {
-        "name": "lead-scraper-doe",
-        "description": "Legacy Web Project: Scraping engine with DOE architecture. Google Maps integration and intelligent retries.",
-        "tech": "Python, DOE, Pydantic"
+        "name": "fractal-ride",
+        "description": "Visually driven TypeScript project with fractal-based presentation that highlights creativity and frontend fluency.",
+        "tech": "TypeScript, Frontend"
       },
       {
-        "name": "doc_ai_doe",
-        "description": "Legacy Web Project: Document analysis pipeline using LLMs and computer vision for structured data extraction.",
-        "tech": "Python, LLMs, OCR"
+        "name": "portfolio",
+        "description": "Portfolio itself, deployed on Vercel and intended to organize the other flagship projects with correct links and positioning.",
+        "tech": "TypeScript, Next.js, Vercel"
+      },
+      {
+        "name": "agentic_seo_analyzer",
+        "description": "Python project focused on agentic AI for SEO, showing current interest in automation and AI workflows.",
+        "tech": "Python, AI, SEO"
+      },
+      {
+        "name": "proposal_engine_doe",
+        "description": "Python automation project for proposal generation with a real business use case and defined license.",
+        "tech": "Python, Automation"
+      },
+      {
+        "name": "chrono-orion",
+        "description": "Solid Python project that broadens stack representation and adds technical diversity to the portfolio.",
+        "tech": "Python"
       }
     ]
   },
   "pt": {
     "profile": {
       "name": "Mateus Marinho",
-      "role": "Desenvolvedor Flutter & Full-Stack",
+      "role": "Flutter, Dart, TypeScript, Next.js, Laravel & Docker",
       "email": "mateusomarinho@gmail.com",
       "linkedin": "https://www.linkedin.com/in/momarinho94/",
       "github": "https://github.com/momarinho"
     },
     "about": [
-      "Especializado em criar aplicações mobile complexas com integrações nativas, ML e arquitetura escalável.",
-      "Experiência comprovada em projetos cross-platform de produção, em transição de desenvolvimento full-stack web.",
-      "Crio a ponte entre lógica complexa e sistemas mobile escaláveis.",
-      "Status atual: Disponível para trabalho."
+      "Atuo com Flutter e Dart para produtos cross-platform, mantendo tambem experiencia pratica com TypeScript, Next.js, Laravel e Docker no dia a dia.",
+      "Hoje meu trabalho combina Flutter/Dart com TypeScript/Next.js, Laravel e Docker para deploy e operacao em producao.",
+      "Conecto visao de produto, execucao mobile e entrega continua.",
+      "Status atual: Flutter / Dart com TypeScript, Next.js, Laravel e Docker."
     ],
     "skills": {
       "core": [
@@ -79,55 +84,60 @@
         "Google ML Kit",
         "Camera & Native APIs"
       ],
-      "support": [
-        "REST APIs",
-        "Firebase",
-        "SQL/NoSQL",
-        "n8n/Automation"
-      ],
-      "frontline": [
-        "Next.js",
-        "React",
-        "TypeScript",
-        "Tailwind CSS"
-      ]
+      "support": ["REST APIs", "Firebase", "SQL/NoSQL", "n8n/Automation"],
+      "frontline": ["Next.js", "React", "TypeScript", "Tailwind CSS"]
     },
     "projects": [
       {
         "name": "cat_diet_planner",
-        "description": "Aplicativo de planejamento nutricional para gatos que permite gerenciar dieta, horários, histórico fotográfico e gerar relatórios em PDF.",
-        "tech": "Flutter, Riverpod, Hive, Google ML Kit"
+        "description": "Projeto mais recente e ativo, atualizado em 15/03/2026, com proposta real de produto para planejamento nutricional felino em multiplas plataformas.",
+        "tech": "Dart, Flutter, Riverpod, Firebase Hosting, Vercel"
       },
       {
-        "name": "RepEngine",
-        "description": "[Em desenvolvimento privado, será adicionado futuramente]",
-        "tech": "Flutter, Backend"
+        "name": "gacha",
+        "description": "Projeto criativo em TypeScript com conceito de gacha, conectando frontend com uma proposta inspirada em mecanicas de jogos.",
+        "tech": "TypeScript, Vercel"
       },
       {
-        "name": "lead-scraper-doe",
-        "description": "Projeto Web Legacy: Motor de scraping com arquitetura DOE. Integração Google Maps e retries.",
-        "tech": "Python, DOE, Pydantic"
+        "name": "fractal-ride",
+        "description": "Projeto visual em TypeScript com estetica baseada em fractais, util para demonstrar criatividade e dominio de frontend.",
+        "tech": "TypeScript, Frontend"
       },
       {
-        "name": "doc_ai_doe",
-        "description": "Projeto Web Legacy: Pipeline de análise documental com LLMs e visão computacional.",
-        "tech": "Python, LLMs, OCR"
+        "name": "portfolio",
+        "description": "O proprio portfolio, publicado no Vercel e pensado para apresentar os demais projetos com links e descricoes corretos.",
+        "tech": "TypeScript, Next.js, Vercel"
+      },
+      {
+        "name": "agentic_seo_analyzer",
+        "description": "Projeto em Python com foco em AI agentica para SEO, destacando interesse em automacao e IA aplicada.",
+        "tech": "Python, AI, SEO"
+      },
+      {
+        "name": "proposal_engine_doe",
+        "description": "Projeto em Python para geracao de propostas com caso de uso real e licenca definida.",
+        "tech": "Python, Automacao"
+      },
+      {
+        "name": "chrono-orion",
+        "description": "Projeto solido em Python que amplia a diversidade de stack mostrada no portfolio.",
+        "tech": "Python"
       }
     ]
   },
   "es": {
     "profile": {
       "name": "Mateus Marinho",
-      "role": "Desarrollador Flutter & Full-Stack",
+      "role": "Flutter, Dart, TypeScript, Next.js, Laravel y Docker",
       "email": "mateusomarinho@gmail.com",
       "linkedin": "https://www.linkedin.com/in/momarinho94/",
       "github": "https://github.com/momarinho"
     },
     "about": [
-      "Especializado en crear aplicaciones móviles complejas con integraciones nativas, ML y arquitectura escalable.",
-      "Experiencia comprobada en proyectos cross-platform de producción, en transición del desarrollo full-stack web.",
-      "Cubro la brecha entre lógica compleja y sistemas móviles escalables.",
-      "Estado actual: Disponible para trabajar."
+      "Trabajo con Flutter y Dart para productos cross-platform, manteniendo tambien experiencia practica con TypeScript, Next.js, Laravel y Docker en el dia a dia.",
+      "Hoy mi trabajo combina Flutter/Dart con TypeScript/Next.js, Laravel y Docker para deploy y operacion en produccion.",
+      "Conecto vision de producto, ejecucion mobile y entrega continua.",
+      "Estado actual: Flutter / Dart con TypeScript, Next.js, Laravel y Docker."
     ],
     "skills": {
       "core": [
@@ -137,39 +147,44 @@
         "Google ML Kit",
         "Camera & Native APIs"
       ],
-      "support": [
-        "REST APIs",
-        "Firebase",
-        "SQL/NoSQL",
-        "n8n/Automation"
-      ],
-      "frontline": [
-        "Next.js",
-        "React",
-        "TypeScript",
-        "Tailwind CSS"
-      ]
+      "support": ["REST APIs", "Firebase", "SQL/NoSQL", "n8n/Automation"],
+      "frontline": ["Next.js", "React", "TypeScript", "Tailwind CSS"]
     },
     "projects": [
       {
         "name": "cat_diet_planner",
-        "description": "Aplicación de planificación nutricional para gatos que permite gestionar dieta, horarios, historial fotográfico y generar informes PDF.",
-        "tech": "Flutter, Riverpod, Hive, Google ML Kit"
+        "description": "Proyecto activo mas reciente, actualizado el 15/03/2026, con una propuesta real de producto para planificacion nutricional felina en multiples plataformas.",
+        "tech": "Dart, Flutter, Riverpod, Firebase Hosting, Vercel"
       },
       {
-        "name": "RepEngine",
-        "description": "[En desarrollo privado, pendiente de lanzamiento público]",
-        "tech": "Flutter, Backend"
+        "name": "gacha",
+        "description": "Proyecto creativo en TypeScript con concepto de gacha, conectando frontend con una propuesta inspirada en mecanicas de juegos.",
+        "tech": "TypeScript, Vercel"
       },
       {
-        "name": "lead-scraper-doe",
-        "description": "Proyecto Web Legacy: Motor de scraping con arquitectura DOE. Integración Google Maps y reintentos.",
-        "tech": "Python, DOE, Pydantic"
+        "name": "fractal-ride",
+        "description": "Proyecto visual en TypeScript con estetica basada en fractales, util para demostrar creatividad y dominio de frontend.",
+        "tech": "TypeScript, Frontend"
       },
       {
-        "name": "doc_ai_doe",
-        "description": "Proyecto Web Legacy: Pipeline de análisis documental con LLMs y visión por computadora.",
-        "tech": "Python, LLMs, OCR"
+        "name": "portfolio",
+        "description": "El propio portafolio, desplegado en Vercel y pensado para presentar los demas proyectos con enlaces y descripciones correctos.",
+        "tech": "TypeScript, Next.js, Vercel"
+      },
+      {
+        "name": "agentic_seo_analyzer",
+        "description": "Proyecto en Python enfocado en IA agentica para SEO, destacando interes en automatizacion e IA aplicada.",
+        "tech": "Python, AI, SEO"
+      },
+      {
+        "name": "proposal_engine_doe",
+        "description": "Proyecto en Python para generacion de propuestas con un caso de uso real y licencia definida.",
+        "tech": "Python, Automatizacion"
+      },
+      {
+        "name": "chrono-orion",
+        "description": "Proyecto solido en Python que amplia la diversidad de stack mostrada en el portafolio.",
+        "tech": "Python"
       }
     ]
   }

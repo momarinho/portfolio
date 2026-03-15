@@ -1,110 +1,143 @@
-import { Translations } from '../types';
+import { Translations } from "../types";
 
 export const en: Translations = {
-    common: {
-        start: 'Start',
-        loading: 'Loading...',
-        enableAudio: '(Enable Audio for Best Experience)',
-        viewQuest: 'VIEW QUEST',
-        activeQuests: 'ACTIVE QUESTS',
-        rank: 'Rank',
-        reward: 'REWARD',
-        xp: 'XP'
+  common: {
+    start: "Start",
+    loading: "Loading...",
+    enableAudio: "(Enable Audio for Best Experience)",
+    viewQuest: "VIEW QUEST",
+    activeQuests: "ACTIVE QUESTS",
+    rank: "Rank",
+    reward: "REWARD",
+    xp: "XP",
+  },
+  nav: {
+    status: "STATUS",
+    skills: "SKILLS",
+    services: "SERVICES",
+    log: "LOG",
+    guild: "GUILD",
+  },
+  startScreen: {
+    role: "Flutter, Dart, TypeScript, Next.js, Laravel & Docker",
+    pressStart: "PRESS START",
+  },
+  hud: {
+    level: "LVL27",
+    class: "FLUTTER / DART / DEVOPS",
+    hp: "HP (Coffee)",
+    mp: "SP (Stamina)",
+  },
+  character: {
+    title: "CHARACTER SHEET",
+    classLabel: "CLASS",
+    specialtyLabel: "SPECIALTY",
+    bioLabel: "BIO",
+    bioText1:
+      "I work with Flutter and Dart for cross-platform products while also using TypeScript, Next.js, Laravel, and Docker in day-to-day delivery.",
+    bioText2:
+      "My current focus combines Flutter/Dart development with TypeScript/Next.js, Laravel, and Docker for deployment, hosting, and production operations.",
+    currentStatus: "CURRENT STATUS",
+    statusValue: "FLUTTER / DART WITH TYPESCRIPT, NEXT.JS, LARAVEL AND DOCKER",
+    attributesTitle: "ATTRIBUTES",
+  },
+  skills: {
+    title: "SKILL TREE",
+    core: "CORE DISCIPLINE",
+    support: "SUPPORT",
+    frontline: "FRONTLINE",
+  },
+  services: {
+    title: "AVAILABLE QUESTS",
+    subtitle: "Services & Solutions Offered",
+    items: {
+      mobileDev: {
+        title: "Mobile App Development",
+        desc: "Cross-platform applications using Flutter and Dart.",
+        reward: "High Performance Apps",
+      },
+      nativeIntel: {
+        title: "Native Integrations & ML",
+        desc: "Implementing Google ML Kit and hardware APIs within mobile.",
+        reward: "Advanced Features",
+      },
+      architecture: {
+        title: "Scalable Architecture",
+        desc: "Clean architecture, Riverpod state management.",
+        reward: "Maintainable Code",
+      },
     },
-    nav: {
-        status: 'STATUS',
-        skills: 'SKILLS',
-        services: 'SERVICES',
-        log: 'LOG',
-        guild: 'GUILD'
+  },
+  projects: {
+    title: "QUEST LOG",
+    items: {
+      catDietPlanner: {
+        type: "Featured Quest - Flutter / Cross-Platform",
+        desc: "Your most recent active project, updated on March 15, 2026, with a clear product direction for feline nutrition planning.",
+        bullets: [
+          "Dart, Flutter, Riverpod",
+          "Deployed on Vercel and Firebase Hosting",
+          "Real product with mobile focus",
+        ],
+      },
+      gacha: {
+        type: "Strong Quest - Creative Web Dev",
+        desc: "A TypeScript project built around a gacha concept, mixing frontend execution with game-inspired mechanics that works well in interviews.",
+        bullets: [
+          "TypeScript",
+          "Deployed on Vercel",
+          "Creative game-inspired concept",
+        ],
+      },
+      fractalRide: {
+        type: "Strong Quest - Visual Frontend",
+        desc: "A visually interesting fractal project that highlights creativity and practical command of TypeScript/frontend work.",
+        bullets: [
+          "TypeScript",
+          "Functional deployment",
+          "Visually distinctive project",
+        ],
+      },
+      portfolio: {
+        type: "Strong Quest - Professional Showcase",
+        desc: "TypeScript portfolio deployed on Vercel and structured to present the rest of your work with accurate links and positioning.",
+        bullets: ["TypeScript", "Deployed on Vercel", "Central showcase hub"],
+      },
+      agenticSeoAnalyzer: {
+        type: "Technical Quest - Automation / AI",
+        desc: "Python project focused on agentic AI for SEO, showing practical interest in a very current automation and AI domain.",
+        bullets: [
+          "Python",
+          "Agentic AI for SEO",
+          "Current technical differentiator",
+        ],
+      },
+      proposalEngineDoe: {
+        type: "Technical Quest - Process Automation",
+        desc: "Real-world proposal generation use case that helps demonstrate business-oriented automation and applied engineering.",
+        bullets: ["Python", "Proposal generation", "Defined license"],
+      },
+      chronoOrion: {
+        type: "Technical Quest - Stack Breadth",
+        desc: "A solid Python project that reinforces stack variety and your ability to work beyond frontend and mobile interfaces.",
+        bullets: ["Python", "Meaningful project size", "Broader stack range"],
+      },
     },
-    startScreen: {
-        role: 'Flutter & Full-Stack Developer',
-        pressStart: 'PRESS START'
+  },
+  guild: {
+    title: "GUILD HALL",
+    intro: "Join the party to discuss your next epic automation.",
+    form: {
+      sendMessage: "SEND MESSAGE",
+      namePlaceholder: "PLAYER NAME",
+      emailPlaceholder: "COMM-LINK (EMAIL)",
+      messagePlaceholder: "QUEST DETAILS...",
+      submit: "TRANSMIT",
     },
-    hud: {
-        level: 'LVL27',
-        class: 'FLUTTER DEVELOPER',
-        hp: 'HP (Coffee)',
-        mp: 'SP (Stamina)'
+    socials: {
+      email: "EMAIL",
+      linkedin: "LINKEDIN",
+      github: "GITHUB",
     },
-    character: {
-        title: 'CHARACTER SHEET',
-        classLabel: 'CLASS',
-        specialtyLabel: 'SPECIALTY',
-        bioLabel: 'BIO',
-        bioText1: 'Specialized in creating complex mobile applications with native integrations, ML, and scalable architecture. I bridge the gap between complex logic and scalable mobile systems.',
-        bioText2: 'Experienced in cross-platform production projects and transitioning from full-stack web development to mobile mastery.',
-        currentStatus: 'CURRENT STATUS',
-        statusValue: 'OPEN TO WORK',
-        attributesTitle: 'ATTRIBUTES'
-    },
-    skills: {
-        title: 'SKILL TREE',
-        core: 'CORE DISCIPLINE',
-        support: 'SUPPORT',
-        frontline: 'FRONTLINE'
-    },
-    services: {
-        title: 'AVAILABLE QUESTS',
-        subtitle: 'Services & Solutions Offered',
-        items: {
-            mobileDev: {
-                title: 'Mobile App Development',
-                desc: 'Cross-platform applications using Flutter and Dart.',
-                reward: 'High Performance Apps'
-            },
-            nativeIntel: {
-                title: 'Native Integrations & ML',
-                desc: 'Implementing Google ML Kit and hardware APIs within mobile.',
-                reward: 'Advanced Features'
-            },
-            architecture: {
-                title: 'Scalable Architecture',
-                desc: 'Clean architecture, Riverpod state management.',
-                reward: 'Maintainable Code'
-            }
-        }
-    },
-    projects: {
-        title: 'QUEST LOG',
-        items: {
-            catDietPlanner: {
-                type: 'Core Quest – Mobile App Flutter',
-                desc: 'Nutritional planning app for cats allowing tutors to manage diet, feeding schedules, photo history, and generate vet reports.',
-                bullets: ['Flutter, Riverpod, Hive', 'Google ML Kit (Image Recognition)', 'PDF Generation, Notifications']
-            },
-            repEngine: {
-                type: 'Quest – Mobile App (In Development)',
-                desc: '[Pending public release] Focus on complex business logics and reactive UI.',
-                bullets: ['Flutter', 'Advanced State Management', 'Clean Architecture']
-            },
-            leadScraper: {
-                type: 'Legacy Web Quest – Lead Gen Engine',
-                desc: 'Scraping engine with DOE architecture. Google Maps integration and intelligent retries.',
-                bullets: ['Python, DOE, Pydantic', 'Robust Orchestration', 'Fault-tolerant']
-            },
-            docAi: {
-                type: 'Legacy Web Quest – Doc Intelligence',
-                desc: 'Document processing pipeline with structured data extraction using LLMs.',
-                bullets: ['Complex PDF Analysis', 'LLMs, OCR', 'High Precision']
-            }
-        }
-    },
-    guild: {
-        title: 'GUILD HALL',
-        intro: "Join the party to discuss your next epic automation.",
-        form: {
-            sendMessage: 'SEND MESSAGE',
-            namePlaceholder: 'PLAYER NAME',
-            emailPlaceholder: 'COMM-LINK (EMAIL)',
-            messagePlaceholder: 'QUEST DETAILS...',
-            submit: 'TRANSMIT'
-        },
-        socials: {
-            email: 'EMAIL',
-            linkedin: 'LINKEDIN',
-            github: 'GITHUB'
-        }
-    }
+  },
 };
