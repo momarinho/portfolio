@@ -16,7 +16,7 @@ export const es: Translations = {
     skills: "HABILIDADES",
     services: "MISIONES",
     log: "DIARIO",
-    guild: "GREMIO",
+    guild: "CONTACTO",
   },
   startScreen: {
     role: "Flutter, Dart, TypeScript, Next.js, Laravel y Docker",
@@ -129,14 +129,15 @@ export const es: Translations = {
     },
   },
   guild: {
-    title: "SALON DEL GREMIO",
-    intro: "Únete al grupo para discutir tu próxima automatización épica.",
+    title: "CONSTRUYAMOS",
+    intro:
+      "Si necesitas Flutter, Dart, TypeScript, Next.js, Laravel o Docker para llevar un producto de idea a produccion, este es el mejor lugar para hablar conmigo.",
     form: {
-      sendMessage: "ENVIAR MENSAJE",
-      namePlaceholder: "NOMBRE JUGADOR",
-      emailPlaceholder: "ENLACE-COM (EMAIL)",
-      messagePlaceholder: "DETALLES DE LA MISION...",
-      submit: "TRANSMITIR",
+      sendMessage: "INICIAR CONVERSACION",
+      namePlaceholder: "TU NOMBRE",
+      emailPlaceholder: "TU EMAIL",
+      messagePlaceholder: "CONTEXTO DEL PROYECTO, ROL O IDEA...",
+      submit: "ENVIAR",
     },
     socials: {
       email: "CORREO",
