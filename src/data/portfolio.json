@@ -2,189 +2,159 @@
   "en": {
     "profile": {
       "name": "Mateus Marinho",
-      "role": "Flutter, Dart, TypeScript, Next.js, Laravel & Docker",
+      "role": "Backend Developer",
       "email": "mateusomarinho@gmail.com",
       "linkedin": "https://www.linkedin.com/in/momarinho94/",
       "github": "https://github.com/momarinho"
     },
     "about": [
-      "I work with Flutter and Dart for cross-platform products while also using TypeScript, Next.js, Laravel, and Docker in day-to-day delivery.",
-      "Current work combines Flutter/Dart development with TypeScript/Next.js, Laravel, and Docker for deployment and production operations.",
-      "Bridging product thinking, mobile execution, and production delivery.",
-      "Current status: Flutter / Dart with TypeScript, Next.js, Laravel, and Docker."
+      "Backend developer focused on Go, Linux, REST APIs, and production-level system engineering.",
+      "Currently delivering software for the public sector in Brazil using Laravel services, JWT/OAuth2 secured APIs, relational databases, Docker environments, and Linux server operations.",
+      "Side projects explore backend systems and developer tools: a workflow platform API in Go, a durable message broker with consumer groups and WAL persistence, and an observability desktop app with real-time automation features.",
+      "Linux-first, API-driven, open to remote work."
     ],
     "skills": {
       "core": [
-        "Flutter/Dart",
-        "Riverpod/Provider/BLoC",
-        "Hive/SQLite",
-        "Google ML Kit",
-        "Camera & Native APIs"
+        "Go",
+        "Laravel",
+        "Python",
+        "REST APIs",
+        "JWT/OAuth2"
       ],
-      "support": ["REST APIs", "Firebase", "SQL/NoSQL", "n8n/Automation"],
-      "frontline": ["Next.js", "React", "TypeScript", "Tailwind CSS"]
+      "support": ["Next.js", "React", "TypeScript", "Flutter"],
+      "frontline": ["Claude API", "n8n", "Docker", "Linux", "PostgreSQL", "MySQL"]
     },
     "projects": [
       {
+        "name": "repengine",
+        "description": "Full-stack workout assembly platform with Go + Fiber API, SvelteKit frontend, JWT authentication, and versioned workflow CRUD. Local p95 benchmark at 4.45 ms.",
+        "tech": "Go, SvelteKit, PostgreSQL"
+      },
+      {
+        "name": "aiops-desktop",
+        "description": "Full-stack observability desktop app with Go backend, Svelte interface, real-time host metrics via SSE, secure container actions, and an AI explanation layer with Claude API.",
+        "tech": "Go, Svelte, Electron"
+      },
+      {
+        "name": "pulse_go",
+        "description": "Go backend systems project featuring consumer groups, group-based offset tracking, HTTP APIs for publish/consume/ack/nack and offset resets, dead-letter inspection, WAL durability, and a TUI client.",
+        "tech": "Go, Nix"
+      },
+      {
+        "name": "container-manager",
+        "description": "Full-stack web dashboard for Docker container management with a REST backend in Python, React frontend, and operator-flow driven UI.",
+        "tech": "Python, React"
+      },
+      {
         "name": "cat_diet_planner",
-        "description": "Most recent active project, updated on March 15, 2026, with a real product direction focused on feline nutrition planning across platforms.",
-        "tech": "Dart, Flutter, Riverpod, Firebase Hosting, Vercel"
-      },
-      {
-        "name": "gacha",
-        "description": "Creative TypeScript project built around a gacha concept, connecting frontend execution with game-inspired interaction.",
-        "tech": "TypeScript, Vercel"
-      },
-      {
-        "name": "fractal-ride",
-        "description": "Visually driven TypeScript project with fractal-based presentation that highlights creativity and frontend fluency.",
-        "tech": "TypeScript, Frontend"
-      },
-      {
-        "name": "portfolio",
-        "description": "Portfolio itself, deployed on Vercel and intended to organize the other flagship projects with correct links and positioning.",
-        "tech": "TypeScript, Next.js, Vercel"
-      },
-      {
-        "name": "agentic_seo_analyzer",
-        "description": "Python project focused on agentic AI for SEO, showing current interest in automation and AI workflows.",
-        "tech": "Python, AI, SEO"
-      },
-      {
-        "name": "proposal_engine_doe",
-        "description": "Python automation project for proposal generation with a real business use case and defined license.",
-        "tech": "Python, Automation"
-      },
-      {
-        "name": "chrono-orion",
-        "description": "Solid Python project that broadens stack representation and adds technical diversity to the portfolio.",
-        "tech": "Python"
+        "description": "Cross-platform mobile app in Flutter and Dart for feline nutritional tracking across multiple profiles, focused on interface flows and state management.",
+        "tech": "Flutter, Dart"
       }
     ]
   },
   "pt": {
     "profile": {
       "name": "Mateus Marinho",
-      "role": "Flutter, Dart, TypeScript, Next.js, Laravel & Docker",
+      "role": "Desenvolvedor Backend",
       "email": "mateusomarinho@gmail.com",
       "linkedin": "https://www.linkedin.com/in/momarinho94/",
       "github": "https://github.com/momarinho"
     },
     "about": [
-      "Atuo com Flutter e Dart para produtos cross-platform, mantendo tambem experiencia pratica com TypeScript, Next.js, Laravel e Docker no dia a dia.",
-      "Hoje meu trabalho combina Flutter/Dart com TypeScript/Next.js, Laravel e Docker para deploy e operacao em producao.",
-      "Conecto visao de produto, execucao mobile e entrega continua.",
-      "Status atual: Flutter / Dart com TypeScript, Next.js, Laravel e Docker."
+      "Desenvolvedor backend focado em Go, Linux, APIs REST e engenharia de sistemas em nível de produção.",
+      "Atualmente entregando software para o setor público no Brasil com serviços em Laravel, APIs protegidas com JWT/OAuth2, bancos de dados relacionais, ambientes com Docker e operação de servidores Linux.",
+      "Projetos paralelos exploram sistemas backend e ferramentas para desenvolvedores: uma API de plataforma de workflow, um message broker durável com consumer groups e persistência via WAL, e um aplicativo desktop de observabilidade com recursos de automação em tempo real.",
+      "Linux-first, orientado a APIs, aberto a remoto."
     ],
     "skills": {
       "core": [
-        "Flutter/Dart",
-        "Riverpod/Provider/BLoC",
-        "Hive/SQLite",
-        "Google ML Kit",
-        "Camera & Native APIs"
+        "Go",
+        "Laravel",
+        "Python",
+        "APIs REST",
+        "JWT/OAuth2"
       ],
-      "support": ["REST APIs", "Firebase", "SQL/NoSQL", "n8n/Automation"],
-      "frontline": ["Next.js", "React", "TypeScript", "Tailwind CSS"]
+      "support": ["Next.js", "React", "TypeScript", "Flutter"],
+      "frontline": ["Claude API", "n8n", "Docker", "Linux", "PostgreSQL", "MySQL"]
     },
     "projects": [
       {
+        "name": "repengine",
+        "description": "Plataforma full-stack de montagem de treinos com API Go + Fiber, frontend em SvelteKit, autenticação JWT e CRUD versionado de workflow. Benchmark local em p95 de 4.45 ms.",
+        "tech": "Go, SvelteKit, PostgreSQL"
+      },
+      {
+        "name": "aiops-desktop",
+        "description": "Aplicativo desktop full-stack de observabilidade com backend em Go, interface em Svelte, métricas do host em tempo real via SSE, ações seguras em containers e uma camada de explicação por IA com Claude API.",
+        "tech": "Go, Svelte, Electron"
+      },
+      {
+        "name": "pulse_go",
+        "description": "Projeto de sistemas backend em Go com consumer groups, rastreamento de offset por grupo, APIs HTTP para publish/consume/ack/nack e reset de offset, inspeção de dead-letter, durabilidade com WAL e um cliente TUI.",
+        "tech": "Go, Nix"
+      },
+      {
+        "name": "container-manager",
+        "description": "Dashboard web full-stack para gerenciamento de containers Docker com backend REST em Python, frontend em React e interface orientada ao fluxo do operador.",
+        "tech": "Python, React"
+      },
+      {
         "name": "cat_diet_planner",
-        "description": "Projeto mais recente e ativo, atualizado em 15/03/2026, com proposta real de produto para planejamento nutricional felino em multiplas plataformas.",
-        "tech": "Dart, Flutter, Riverpod, Firebase Hosting, Vercel"
-      },
-      {
-        "name": "gacha",
-        "description": "Projeto criativo em TypeScript com conceito de gacha, conectando frontend com uma proposta inspirada em mecanicas de jogos.",
-        "tech": "TypeScript, Vercel"
-      },
-      {
-        "name": "fractal-ride",
-        "description": "Projeto visual em TypeScript com estetica baseada em fractais, util para demonstrar criatividade e dominio de frontend.",
-        "tech": "TypeScript, Frontend"
-      },
-      {
-        "name": "portfolio",
-        "description": "O proprio portfolio, publicado no Vercel e pensado para apresentar os demais projetos com links e descricoes corretos.",
-        "tech": "TypeScript, Next.js, Vercel"
-      },
-      {
-        "name": "agentic_seo_analyzer",
-        "description": "Projeto em Python com foco em AI agentica para SEO, destacando interesse em automacao e IA aplicada.",
-        "tech": "Python, AI, SEO"
-      },
-      {
-        "name": "proposal_engine_doe",
-        "description": "Projeto em Python para geracao de propostas com caso de uso real e licenca definida.",
-        "tech": "Python, Automacao"
-      },
-      {
-        "name": "chrono-orion",
-        "description": "Projeto solido em Python que amplia a diversidade de stack mostrada no portfolio.",
-        "tech": "Python"
+        "description": "Aplicativo mobile multiplataforma em Flutter e Dart para acompanhamento nutricional de gatos em múltiplos perfis, focado em fluxos de interface e gerenciamento de estado.",
+        "tech": "Flutter, Dart"
       }
     ]
   },
   "es": {
     "profile": {
       "name": "Mateus Marinho",
-      "role": "Flutter, Dart, TypeScript, Next.js, Laravel y Docker",
+      "role": "Desarrollador Backend",
       "email": "mateusomarinho@gmail.com",
       "linkedin": "https://www.linkedin.com/in/momarinho94/",
       "github": "https://github.com/momarinho"
     },
     "about": [
-      "Trabajo con Flutter y Dart para productos cross-platform, manteniendo tambien experiencia practica con TypeScript, Next.js, Laravel y Docker en el dia a dia.",
-      "Hoy mi trabajo combina Flutter/Dart con TypeScript/Next.js, Laravel y Docker para deploy y operacion en produccion.",
-      "Conecto vision de producto, ejecucion mobile y entrega continua.",
-      "Estado actual: Flutter / Dart con TypeScript, Next.js, Laravel y Docker."
+      "Desarrollador backend centrado en Go, Linux, APIs REST e ingeniería de sistemas a nivel de producción.",
+      "Actualmente entregando software para el sector público en Brasil utilizando servicios Laravel, APIs aseguradas con JWT/OAuth2, bases de datos relacionales, entornos Docker y operaciones de servidores Linux.",
+      "Los proyectos paralelos exploran sistemas backend y herramientas para desarrolladores: una API de plataforma de flujo de trabajo en Go, un message broker duradero con grupos de consumidores y persistencia WAL, y una aplicación de escritorio de observabilidad con funciones de automatización en tiempo real.",
+      "Enfoque Linux-first, orientado a APIs, abierto al trabajo remoto."
     ],
     "skills": {
       "core": [
-        "Flutter/Dart",
-        "Riverpod/Provider/BLoC",
-        "Hive/SQLite",
-        "Google ML Kit",
-        "Camera & Native APIs"
+        "Go",
+        "Laravel",
+        "Python",
+        "APIs REST",
+        "JWT/OAuth2"
       ],
-      "support": ["REST APIs", "Firebase", "SQL/NoSQL", "n8n/Automation"],
-      "frontline": ["Next.js", "React", "TypeScript", "Tailwind CSS"]
+      "support": ["Next.js", "React", "TypeScript", "Flutter"],
+      "frontline": ["Claude API", "n8n", "Docker", "Linux", "PostgreSQL", "MySQL"]
     },
     "projects": [
       {
+        "name": "repengine",
+        "description": "Plataforma full-stack de ensamblaje de entrenamientos con API Go + Fiber, frontend en SvelteKit, autenticación JWT y CRUD versionado de flujo de trabajo. Benchmark local en p95 de 4.45 ms.",
+        "tech": "Go, SvelteKit, PostgreSQL"
+      },
+      {
+        "name": "aiops-desktop",
+        "description": "Aplicación de escritorio full-stack de observabilidad con backend en Go, interfaz en Svelte, métricas de host en tiempo real a través de SSE, acciones seguras en contenedores y una capa de explicación de IA con la API de Claude.",
+        "tech": "Go, Svelte, Electron"
+      },
+      {
+        "name": "pulse_go",
+        "description": "Proyecto de sistemas backend en Go con grupos de consumidores, seguimiento de offset basado en grupos, APIs HTTP para publish/consume/ack/nack y restablecimiento de offset, inspección de dead-letter, durabilidad WAL y un cliente TUI.",
+        "tech": "Go, Nix"
+      },
+      {
+        "name": "container-manager",
+        "description": "Dashboard web full-stack para la gestión de contenedores Docker con un backend REST en Python, frontend en React y una interfaz de usuario orientada al flujo del operador.",
+        "tech": "Python, React"
+      },
+      {
         "name": "cat_diet_planner",
-        "description": "Proyecto activo mas reciente, actualizado el 15/03/2026, con una propuesta real de producto para planificacion nutricional felina en multiples plataformas.",
-        "tech": "Dart, Flutter, Riverpod, Firebase Hosting, Vercel"
-      },
-      {
-        "name": "gacha",
-        "description": "Proyecto creativo en TypeScript con concepto de gacha, conectando frontend con una propuesta inspirada en mecanicas de juegos.",
-        "tech": "TypeScript, Vercel"
-      },
-      {
-        "name": "fractal-ride",
-        "description": "Proyecto visual en TypeScript con estetica basada en fractales, util para demostrar creatividad y dominio de frontend.",
-        "tech": "TypeScript, Frontend"
-      },
-      {
-        "name": "portfolio",
-        "description": "El propio portafolio, desplegado en Vercel y pensado para presentar los demas proyectos con enlaces y descripciones correctos.",
-        "tech": "TypeScript, Next.js, Vercel"
-      },
-      {
-        "name": "agentic_seo_analyzer",
-        "description": "Proyecto en Python enfocado en IA agentica para SEO, destacando interes en automatizacion e IA aplicada.",
-        "tech": "Python, AI, SEO"
-      },
-      {
-        "name": "proposal_engine_doe",
-        "description": "Proyecto en Python para generacion de propuestas con un caso de uso real y licencia definida.",
-        "tech": "Python, Automatizacion"
-      },
-      {
-        "name": "chrono-orion",
-        "description": "Proyecto solido en Python que amplia la diversidad de stack mostrada en el portafolio.",
-        "tech": "Python"
+        "description": "Aplicación móvil multiplataforma en Flutter y Dart para el seguimiento nutricional felino en múltiples perfiles, centrada en los flujos de interfaz y la gestión del estado.",
+        "tech": "Flutter, Dart"
       }
     ]
   }
