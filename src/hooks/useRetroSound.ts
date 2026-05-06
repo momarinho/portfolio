@@ -3,13 +3,19 @@
 import { useRef, useEffect } from "react";
 import { useSoundContext } from "@/context/SoundContext";
 
+type AudioWindow = Window &
+    typeof globalThis & {
+        webkitAudioContext?: typeof AudioContext;
+    };
+
 export function useRetroSound() {
     const { isMuted, audioEnabled } = useSoundContext();
     const audioCtxRef = useRef<AudioContext | null>(null);
 
     useEffect(() => {
         if (audioEnabled && !audioCtxRef.current) {
-            const AudioContextClass = window.AudioContext || (window as any).webkitAudioContext;
+            const AudioContextClass =
+                window.AudioContext || (window as AudioWindow).webkitAudioContext;
             if (AudioContextClass) {
                 audioCtxRef.current = new AudioContextClass();
             }

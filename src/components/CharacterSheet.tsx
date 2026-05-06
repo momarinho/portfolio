@@ -7,12 +7,12 @@ export function CharacterSheet() {
   const { t } = useLanguage();
 
   const stats = [
-    { label: "Flutter", val: 83 },
-    { label: "Dart", val: 81 },
-    { label: "TypeScript", val: 78 },
-    { label: "Next.js", val: 74 },
-    { label: "Laravel", val: 70 },
-    { label: "Docker / DevOps", val: 72 },
+    { label: "Go", val: 86 },
+    { label: "REST APIs", val: 84 },
+    { label: "Linux", val: 82 },
+    { label: "Laravel", val: 78 },
+    { label: "Docker", val: 76 },
+    { label: "PostgreSQL / MySQL", val: 74 },
   ];
 
   return (
@@ -30,8 +30,8 @@ export function CharacterSheet() {
                 {">"} {t.character.classLabel}: {t.hud.class}
               </p>
               <p className="text-[#00f3ff] mb-2">
-                {">"} {t.character.specialtyLabel}: Flutter, Dart, TypeScript,
-                Next.js, Laravel, Docker
+                {">"} {t.character.specialtyLabel}: Go, REST APIs, Linux,
+                Laravel, Docker, PostgreSQL
               </p>
               <p className="text-gray-400">
                 {">"} {t.character.bioLabel}:

@@ -21,12 +21,12 @@ const CHAT_STORAGE_KEY = "portfolio-chat-history";
 const UI_COPY = {
   en: {
     greeting:
-      "Greetings. I am the Portfolio Assistant. Ask about projects, stack, DevOps, or contact info.",
+      "Greetings. I am the Portfolio Assistant. Ask about projects, backend stack, infrastructure, or contact info.",
     title: "AI_ASSISTANT_V2",
     loading: "Reviewing portfolio data...",
     placeholder: "Ask about projects or stack...",
     empty:
-      "Ask direct questions about projects, current stack, DevOps, or contact details.",
+      "Ask direct questions about projects, current backend stack, infrastructure, or contact details.",
     reset: "Reset",
     quickPrompts: "Quick prompts",
     showPrompts: "Show prompts",
@@ -34,12 +34,12 @@ const UI_COPY = {
   },
   pt: {
     greeting:
-      "Saudações. Sou o Assistente do Portfólio. Pergunte sobre projetos, stack, DevOps ou contato.",
+      "Saudações. Sou o Assistente do Portfólio. Pergunte sobre projetos, stack backend, infraestrutura ou contato.",
     title: "AI_ASSISTANT_V2",
     loading: "Consultando dados do portfólio...",
     placeholder: "Pergunte sobre projetos ou stack...",
     empty:
-      "Faça perguntas diretas sobre projetos, stack atual, DevOps ou contato.",
+      "Faça perguntas diretas sobre projetos, stack backend atual, infraestrutura ou contato.",
     reset: "Limpar",
     quickPrompts: "Perguntas rápidas",
     showPrompts: "Mostrar prompts",
@@ -47,12 +47,12 @@ const UI_COPY = {
   },
   es: {
     greeting:
-      "Saludos. Soy el Asistente del Portafolio. Pregunta sobre proyectos, stack, DevOps o contacto.",
+      "Saludos. Soy el Asistente del Portafolio. Pregunta sobre proyectos, stack backend, infraestructura o contacto.",
     title: "AI_ASSISTANT_V2",
     loading: "Consultando datos del portafolio...",
     placeholder: "Pregunta por proyectos o stack...",
     empty:
-      "Haz preguntas directas sobre proyectos, stack actual, DevOps o contacto.",
+      "Haz preguntas directas sobre proyectos, stack backend actual, infraestructura o contacto.",
     reset: "Limpiar",
     quickPrompts: "Preguntas rápidas",
     showPrompts: "Mostrar prompts",
@@ -63,24 +63,24 @@ const UI_COPY = {
 const DEFAULT_SUGGESTIONS = {
   en: [
     "What is Mateus's current stack?",
-    "Tell me about cat_diet_planner",
-    "How does Mateus work with DevOps?",
+    "Tell me about repengine",
+    "How does Mateus work with infrastructure?",
     "How can I contact Mateus?",
     "Why is Mateus a good fit for this role?",
     "What can Mateus build for a client?",
   ],
   pt: [
     "Qual é a stack atual do Mateus?",
-    "Me fale do cat_diet_planner",
-    "Como o Mateus trabalha com DevOps?",
+    "Me fale do repengine",
+    "Como o Mateus trabalha com infraestrutura?",
     "Como posso entrar em contato?",
     "Por que o Mateus é um bom fit para a vaga?",
     "O que o Mateus pode construir para um cliente?",
   ],
   es: [
     "¿Cuál es el stack actual de Mateus?",
-    "Cuéntame sobre cat_diet_planner",
-    "¿Cómo trabaja Mateus con DevOps?",
+    "Cuéntame sobre repengine",
+    "¿Cómo trabaja Mateus con infraestructura?",
     "¿Cómo puedo contactarlo?",
     "¿Por qué Mateus encaja bien en este rol?",
     "¿Qué puede construir Mateus para un cliente?",

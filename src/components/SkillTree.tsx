@@ -6,11 +6,8 @@ import { useLanguage } from "@/context/LanguageContext";
 import portfolioData from "@/data/portfolio.json";
 
 export function SkillTree() {
-  const context = useLanguage() as any;
-  const t = context.t;
-  const language = context.language || "en";
-  const currentLang =
-    language in portfolioData ? (language as keyof typeof portfolioData) : "en";
+  const { t, language } = useLanguage();
+  const currentLang = language as keyof typeof portfolioData;
   const skillsList = portfolioData[currentLang].skills;
 
   return (

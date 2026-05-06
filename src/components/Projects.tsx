@@ -11,23 +11,23 @@ export function Projects() {
 
   const projectsData = [
     {
-      id: "cat_diet_planner",
-      stack: "Dart, Flutter, Riverpod, Firebase, Vercel",
-      link: "https://github.com/momarinho/cat_diet_planner",
-      translation: t.projects.items.catDietPlanner,
+      id: "repengine",
+      stack: "Go, Fiber, SvelteKit, PostgreSQL",
+      link: "https://github.com/momarinho/repengine",
+      translation: t.projects.items.repengine,
       featured: true,
     },
     {
-      id: "gacha",
-      stack: "TypeScript, Vercel",
-      link: "https://github.com/momarinho/gacha",
-      translation: t.projects.items.gacha,
+      id: "aiops-desktop",
+      stack: "Go, Svelte, Electron, Claude API",
+      link: "https://github.com/momarinho/aiops-desktop",
+      translation: t.projects.items.aiopsDesktop,
     },
     {
-      id: "fractal-ride",
-      stack: "TypeScript, Frontend",
-      link: "https://github.com/momarinho/fractal-ride",
-      translation: t.projects.items.fractalRide,
+      id: "pulse_go",
+      stack: "Go, Nix, WAL, TUI",
+      link: "https://github.com/momarinho/pulse_go",
+      translation: t.projects.items.pulseGo,
     },
     {
       id: "portfolio",
@@ -36,22 +36,16 @@ export function Projects() {
       translation: t.projects.items.portfolio,
     },
     {
-      id: "agentic_seo_analyzer",
-      stack: "Python, AI, SEO",
-      link: "https://github.com/momarinho/agentic_seo_analyzer",
-      translation: t.projects.items.agenticSeoAnalyzer,
+      id: "container-manager",
+      stack: "Python, React, Docker",
+      link: "https://github.com/momarinho/container-manager",
+      translation: t.projects.items.containerManager,
     },
     {
-      id: "proposal_engine_doe",
-      stack: "Python, Automation",
-      link: "https://github.com/momarinho/proposal_engine_doe",
-      translation: t.projects.items.proposalEngineDoe,
-    },
-    {
-      id: "chrono-orion",
-      stack: "Python",
-      link: "https://github.com/momarinho/chrono-orion",
-      translation: t.projects.items.chronoOrion,
+      id: "cat_diet_planner",
+      stack: "Flutter, Dart",
+      link: "https://github.com/momarinho/cat_diet_planner",
+      translation: t.projects.items.catDietPlanner,
     },
   ];
 

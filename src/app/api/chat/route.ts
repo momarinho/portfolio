@@ -54,7 +54,7 @@ const COPY: Record<Language, ChatCopy> = {
   en: {
     intro: "I can help with projects, stack, experience, and contact info.",
     fallback:
-      "I can answer about projects, stack, DevOps, contact info, and current work. Try asking about cat_diet_planner or Mateus's current stack.",
+      "I can answer about projects, stack, infrastructure, contact info, and current work. Try asking about repengine or Mateus's current backend stack.",
     contact: "You can reach Mateus at",
     linkedin: "LinkedIn",
     github: "GitHub",
@@ -65,26 +65,26 @@ const COPY: Record<Language, ChatCopy> = {
     projectSummary: "Summary",
     projectListLead: "Main projects:",
     highlightLead:
-      "Featured project: cat_diet_planner. It is the most recent active product and shows clear Flutter/cross-platform direction.",
+      "Featured project: repengine. It shows Go backend delivery with a Fiber API, SvelteKit frontend, JWT auth, versioned workflow CRUD, and a local p95 benchmark at 4.45 ms.",
     devops:
-      "DevOps angle: deploy and hosting with Vercel, Firebase Hosting, Docker, and production delivery workflows.",
+      "Infrastructure angle: Dockerized environments, Linux server operations, relational databases, deployment routines, and production delivery workflows.",
     recruiter:
-      "Recruiter summary: strong Flutter/Dart focus, real cross-platform product work, and practical TypeScript/Next.js, Laravel, and Docker experience.",
+      "Recruiter summary: backend developer focused on Go, Linux, REST APIs, Laravel services, Docker, and production-minded system delivery.",
     client:
-      "Client summary: product-minded delivery with Flutter, plus web/backend/ops support when the project needs TypeScript, Next.js, Laravel, or Docker.",
+      "Client summary: API-first delivery for backend services, workflow automation, integrations, Linux operations, and full-stack support when the product needs it.",
     experience:
-      "Current experience spans mobile, web, and production delivery, with emphasis on Flutter/Dart and practical deployment workflows.",
+      "Current experience centers on public-sector software delivery: Next.js frontend flows, Laravel backend services, JWT/OAuth2 APIs, Dockerized services, database workflows, and Linux operations.",
     experienceLead: "Professional profile:",
     fitLead:
       "Best fit for teams that need product thinking, implementation, and production delivery in the same profile.",
     availability:
-      "Current positioning: Flutter / Dart with TypeScript, Next.js, Laravel, and Docker.",
+      "Current positioning: Backend Developer with Go, Linux, REST APIs, Laravel, Docker, and relational databases.",
     suggestionsLead: "You can also ask:",
   },
   pt: {
     intro: "Posso ajudar com projetos, stack, experiência e contato.",
     fallback:
-      "Posso responder sobre projetos, stack, DevOps, contato e trabalho atual. Tente perguntar sobre cat_diet_planner ou sobre a stack atual do Mateus.",
+      "Posso responder sobre projetos, stack, infraestrutura, contato e trabalho atual. Tente perguntar sobre repengine ou sobre a stack backend atual do Mateus.",
     contact: "Você pode falar com Mateus em",
     linkedin: "LinkedIn",
     github: "GitHub",
@@ -95,26 +95,26 @@ const COPY: Record<Language, ChatCopy> = {
     projectSummary: "Resumo",
     projectListLead: "Projetos principais:",
     highlightLead:
-      "Projeto em destaque: cat_diet_planner. É o produto ativo mais recente e mostra direção clara em Flutter e cross-platform.",
+      "Projeto em destaque: repengine. Ele mostra entrega backend em Go com API Fiber, frontend SvelteKit, autenticação JWT, CRUD versionado de workflows e benchmark local p95 de 4.45 ms.",
     devops:
-      "Ângulo DevOps: deploy e hosting com Vercel, Firebase Hosting, Docker e rotinas de entrega em produção.",
+      "Ângulo de infraestrutura: ambientes Dockerizados, operação de servidores Linux, bancos relacionais, rotinas de deploy e fluxos de entrega em produção.",
     recruiter:
-      "Resumo para recrutador: foco forte em Flutter/Dart, produto cross-platform real e experiência prática com TypeScript/Next.js, Laravel e Docker.",
+      "Resumo para recrutador: desenvolvedor backend focado em Go, Linux, APIs REST, serviços Laravel, Docker e entrega de sistemas com mentalidade de produção.",
     client:
-      "Resumo para cliente: entrega orientada a produto com Flutter, mais suporte em web/backend/operação quando o projeto pede TypeScript, Next.js, Laravel ou Docker.",
+      "Resumo para cliente: entrega API-first para serviços backend, automação de workflows, integrações, operação Linux e suporte full-stack quando o produto precisa.",
     experience:
-      "A experiência atual cruza mobile, web e entrega em produção, com ênfase em Flutter/Dart e rotinas práticas de deploy.",
+      "A experiência atual se concentra em software para setor público: fluxos frontend em Next.js, serviços backend Laravel, APIs JWT/OAuth2, serviços Dockerizados, workflows com banco de dados e operação Linux.",
     experienceLead: "Perfil profissional:",
     fitLead:
       "Melhor encaixe em times que precisam de visão de produto, implementação e entrega em produção no mesmo perfil.",
     availability:
-      "Posicionamento atual: Flutter / Dart com TypeScript, Next.js, Laravel e Docker.",
+      "Posicionamento atual: Desenvolvedor Backend com Go, Linux, APIs REST, Laravel, Docker e bancos relacionais.",
     suggestionsLead: "Você também pode perguntar:",
   },
   es: {
     intro: "Puedo ayudar con proyectos, stack, experiencia y contacto.",
     fallback:
-      "Puedo responder sobre proyectos, stack, DevOps, contacto y trabajo actual. Prueba preguntar por cat_diet_planner o por el stack actual de Mateus.",
+      "Puedo responder sobre proyectos, stack, infraestructura, contacto y trabajo actual. Prueba preguntar por repengine o por el stack backend actual de Mateus.",
     contact: "Puedes contactar a Mateus en",
     linkedin: "LinkedIn",
     github: "GitHub",
@@ -125,20 +125,20 @@ const COPY: Record<Language, ChatCopy> = {
     projectSummary: "Resumen",
     projectListLead: "Proyectos principales:",
     highlightLead:
-      "Proyecto destacado: cat_diet_planner. Es el producto activo más reciente y muestra una dirección clara en Flutter y cross-platform.",
+      "Proyecto destacado: repengine. Muestra entrega backend en Go con API Fiber, frontend SvelteKit, autenticación JWT, CRUD versionado de workflows y benchmark local p95 de 4.45 ms.",
     devops:
-      "Ángulo DevOps: deploy y hosting con Vercel, Firebase Hosting, Docker y flujos de entrega en producción.",
+      "Ángulo de infraestructura: entornos Dockerizados, operación de servidores Linux, bases relacionales, rutinas de deploy y flujos de entrega en producción.",
     recruiter:
-      "Resumen para reclutador: foco fuerte en Flutter/Dart, producto cross-platform real y experiencia práctica con TypeScript/Next.js, Laravel y Docker.",
+      "Resumen para reclutador: desarrollador backend centrado en Go, Linux, APIs REST, servicios Laravel, Docker y entrega de sistemas con mentalidad de producción.",
     client:
-      "Resumen para cliente: entrega orientada a producto con Flutter, más soporte en web/backend/operación cuando el proyecto necesita TypeScript, Next.js, Laravel o Docker.",
+      "Resumen para cliente: entrega API-first para servicios backend, automatización de workflows, integraciones, operación Linux y soporte full-stack cuando el producto lo necesita.",
     experience:
-      "La experiencia actual cruza mobile, web y entrega en producción, con énfasis en Flutter/Dart y rutinas prácticas de deploy.",
+      "La experiencia actual se centra en software para sector público: flujos frontend en Next.js, servicios backend Laravel, APIs JWT/OAuth2, servicios Dockerizados, workflows con base de datos y operación Linux.",
     experienceLead: "Perfil profesional:",
     fitLead:
       "Mejor encaje en equipos que necesitan visión de producto, implementación y entrega en producción en el mismo perfil.",
     availability:
-      "Posicionamiento actual: Flutter / Dart con TypeScript, Next.js, Laravel y Docker.",
+      "Posicionamiento actual: Desarrollador Backend con Go, Linux, APIs REST, Laravel, Docker y bases relacionales.",
     suggestionsLead: "También puedes preguntar:",
   },
 };
@@ -146,24 +146,24 @@ const COPY: Record<Language, ChatCopy> = {
 const SUGGESTIONS: Record<Language, string[]> = {
   en: [
     "What is Mateus's current stack?",
-    "Tell me about cat_diet_planner",
-    "How does Mateus work with DevOps?",
+    "Tell me about repengine",
+    "How does Mateus work with infrastructure?",
     "How can I contact Mateus?",
     "Why is Mateus a good fit for this role?",
     "What can Mateus build for a client?",
   ],
   pt: [
     "Qual é a stack atual do Mateus?",
-    "Me fale do cat_diet_planner",
-    "Como o Mateus trabalha com DevOps?",
+    "Me fale do repengine",
+    "Como o Mateus trabalha com infraestrutura?",
     "Como posso entrar em contato?",
     "Por que o Mateus é um bom fit para a vaga?",
     "O que o Mateus pode construir para um cliente?",
   ],
   es: [
     "¿Cuál es el stack actual de Mateus?",
-    "Cuéntame sobre cat_diet_planner",
-    "¿Cómo trabaja Mateus con DevOps?",
+    "Cuéntame sobre repengine",
+    "¿Cómo trabaja Mateus con infraestructura?",
     "¿Cómo puedo contactarlo?",
     "¿Por qué Mateus encaja bien en este rol?",
     "¿Qué puede construir Mateus para un cliente?",
@@ -201,15 +201,13 @@ function buildStack(locale: PortfolioLocale, copy: ChatCopy) {
     ...locale.skills.core,
     ...locale.skills.support,
     ...locale.skills.frontline,
-    "Laravel",
-    "Docker",
   ];
   const uniqueStack = Array.from(new Set(stack));
   return `${copy.stack} ${uniqueStack.join(", ")}.`;
 }
 
 function getCurrentWork(copy: ChatCopy) {
-  return `${copy.currentWork} Flutter/Dart, TypeScript/Next.js, Laravel, Docker, deploy, hosting, and production operations.`;
+  return `${copy.currentWork} Go, Laravel, REST APIs, JWT/OAuth2, relational databases, Docker, Linux operations, and production deployment routines.`;
 }
 
 function getContact(locale: PortfolioLocale, copy: ChatCopy) {

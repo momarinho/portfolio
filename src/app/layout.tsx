@@ -15,8 +15,9 @@ const vt323 = VT323({
 });
 
 export const metadata: Metadata = {
-  title: "Mateus Marinho | Automation Mage",
-  description: "Retro RPG Portfolio of a Python/AI Automation Developer",
+  title: "Mateus Marinho | Backend Developer",
+  description:
+    "Retro RPG portfolio for a backend developer focused on Go, Linux, REST APIs, Laravel, Docker, and production systems.",
 };
 
 export default function RootLayout({

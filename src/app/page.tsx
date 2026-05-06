@@ -8,6 +8,7 @@ import { Navigation } from "@/components/Navigation";
 import { CharacterSheet } from "@/components/CharacterSheet";
 import { SkillTree } from "@/components/SkillTree";
 import { Services } from "@/components/Services";
+import { Experience } from "@/components/Experience";
 import { Projects } from "@/components/Projects";
 import { GuildHall } from "@/components/GuildHall";
 import { AudioController } from "@/components/AudioController";
@@ -41,7 +42,14 @@ export default function Home() {
     if (!gameStarted) return;
 
     const handleScroll = () => {
-      const sections = ["about", "skills", "services", "projects", "contact"];
+      const sections = [
+        "about",
+        "skills",
+        "services",
+        "experience",
+        "projects",
+        "contact",
+      ];
       const scrollPosition = window.scrollY + 250; // Offset for better detection
 
       for (const section of sections) {
@@ -75,6 +83,7 @@ export default function Home() {
                 <CharacterSheet />
                 <SkillTree />
                 <Services />
+                <Experience />
                 <Projects />
                 <GuildHall />
               </div>

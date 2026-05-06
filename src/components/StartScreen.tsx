@@ -3,19 +3,21 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useSoundContext } from "@/context/SoundContext";
-import { useRetroSound } from "@/hooks/useRetroSound";
 import { useLanguage } from "@/context/LanguageContext";
 
 export function StartScreen({ onStart }: { onStart: () => void }) {
     const { enableAudio } = useSoundContext();
-    const { playClick } = useRetroSound();
     const { t } = useLanguage();
     const [isVisible, setIsVisible] = useState(true);
 
     const handleStart = () => {
         enableAudio();
         // Manual oscillator for immediate feedback
-        const AudioContextClass = window.AudioContext || (window as any).webkitAudioContext;
+        const AudioContextClass =
+            window.AudioContext ||
+            (window as Window & typeof globalThis & {
+                webkitAudioContext?: typeof AudioContext;
+            }).webkitAudioContext;
         if (AudioContextClass) {
             const audioCtx = new AudioContextClass();
             const osc = audioCtx.createOscillator();

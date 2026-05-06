@@ -1,6 +1,6 @@
 "use client";
 
-import React, { createContext, useContext, useState, useEffect } from "react";
+import React, { createContext, useContext, useState } from "react";
 import { Translations, Language } from "../i18n/types";
 import { en } from "../i18n/locales/en";
 import { pt } from "../i18n/locales/pt";
@@ -21,15 +21,11 @@ const dictionaries: Record<Language, Translations> = {
 };
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
-    const [language, setLanguage] = useState<Language>("pt"); // Default to PT as requested implicitly by user language
-
-    // Optional: Load from localStorage
-    useEffect(() => {
+    const [language, setLanguage] = useState<Language>(() => {
+        if (typeof window === "undefined") return "pt";
         const savedLang = localStorage.getItem("rpg-portfolio-lang") as Language;
-        if (savedLang && dictionaries[savedLang]) {
-            setLanguage(savedLang);
-        }
-    }, []);
+        return savedLang && dictionaries[savedLang] ? savedLang : "pt";
+    });
 
     const handleSetLanguage = (lang: Language) => {
         setLanguage(lang);

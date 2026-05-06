@@ -15,16 +15,17 @@ export const en: Translations = {
     status: "STATUS",
     skills: "SKILLS",
     services: "SERVICES",
+    experience: "EXPERIENCE",
     log: "LOG",
     guild: "CONTACT",
   },
   startScreen: {
-    role: "Flutter, Dart, TypeScript, Next.js, Laravel & Docker",
+    role: "Backend Developer · Go · Linux · APIs · Infrastructure",
     pressStart: "PRESS START",
   },
   hud: {
     level: "LVL27",
-    class: "FLUTTER / DART / DEVOPS",
+    class: "BACKEND / GO / LINUX",
     hp: "HP (Coffee)",
     mp: "SP (Stamina)",
   },
@@ -34,11 +35,11 @@ export const en: Translations = {
     specialtyLabel: "SPECIALTY",
     bioLabel: "BIO",
     bioText1:
-      "I work with Flutter and Dart for cross-platform products while also using TypeScript, Next.js, Laravel, and Docker in day-to-day delivery.",
+      "Backend developer focused on Go, Linux, REST APIs, and production-grade systems engineering.",
     bioText2:
-      "My current focus combines Flutter/Dart development with TypeScript/Next.js, Laravel, and Docker for deployment, hosting, and production operations.",
+      "Currently delivering public-sector software in Brazil with Laravel services, JWT/OAuth2 secured APIs, relational databases, Dockerized environments, and Linux server operations.",
     currentStatus: "CURRENT STATUS",
-    statusValue: "FLUTTER / DART WITH TYPESCRIPT, NEXT.JS, LARAVEL AND DOCKER",
+    statusValue: "GO, LARAVEL, REST APIS, DOCKER, LINUX AND DATABASE-BACKED SYSTEMS",
     attributesTitle: "ATTRIBUTES",
   },
   skills: {
@@ -52,82 +53,106 @@ export const en: Translations = {
     subtitle: "Services & Solutions Offered",
     items: {
       mobileDev: {
-        title: "Mobile App Development",
-        desc: "Cross-platform applications using Flutter and Dart.",
-        reward: "High Performance Apps",
+        title: "Backend API Development",
+        desc: "REST APIs, authentication, database-backed workflows, and integration-ready services.",
+        reward: "Production APIs",
       },
       nativeIntel: {
-        title: "Native Integrations & ML",
-        desc: "Implementing Google ML Kit and hardware APIs within mobile.",
-        reward: "Advanced Features",
+        title: "AI & Workflow Automation",
+        desc: "LLM tooling, n8n automations, and backend systems that connect products to real operational flows.",
+        reward: "Automated Workflows",
       },
       architecture: {
-        title: "Scalable Architecture",
-        desc: "Clean architecture, Riverpod state management.",
-        reward: "Maintainable Code",
+        title: "Infrastructure & Operations",
+        desc: "Dockerized environments, Linux server routines, relational databases, and deployment support.",
+        reward: "Reliable Delivery",
       },
     },
   },
   projects: {
     title: "QUEST LOG",
     items: {
-      catDietPlanner: {
-        type: "Featured Quest - Flutter / Cross-Platform",
-        desc: "Your most recent active project, updated on March 15, 2026, with a clear product direction for feline nutrition planning.",
+      repengine: {
+        type: "Featured Quest - Go / Backend Platform",
+        desc: "Full-stack training routine platform with a Go + Fiber API, SvelteKit frontend, JWT auth, and versioned workflow CRUD. Benchmarked at p95 4.45 ms locally.",
         bullets: [
-          "Dart, Flutter, Riverpod",
-          "Deployed on Vercel and Firebase Hosting",
-          "Real product with mobile focus",
+          "Go, Fiber, SvelteKit",
+          "JWT authentication",
+          "Versioned workflow CRUD",
         ],
       },
-      gacha: {
-        type: "Strong Quest - Creative Web Dev",
-        desc: "A TypeScript project built around a gacha concept, mixing frontend execution with game-inspired mechanics that works well in interviews.",
+      aiopsDesktop: {
+        type: "Strong Quest - Observability / AI",
+        desc: "Desktop full-stack observability app with a Go backend, Svelte UI, real-time host metrics via SSE, guarded container actions, and an AI explanation layer powered by Claude API.",
         bullets: [
-          "TypeScript",
-          "Deployed on Vercel",
-          "Creative game-inspired concept",
+          "Go, Svelte, Electron",
+          "SSE host metrics",
+          "Claude API layer",
         ],
       },
-      fractalRide: {
-        type: "Strong Quest - Visual Frontend",
-        desc: "A visually interesting fractal project that highlights creativity and practical command of TypeScript/frontend work.",
+      pulseGo: {
+        type: "Strong Quest - Backend Systems",
+        desc: "Go systems project with consumer groups, per-group offset tracking, publish/consume/ack/nack APIs, dead-letter inspection, WAL durability, and a terminal UI client.",
         bullets: [
-          "TypeScript",
-          "Functional deployment",
-          "Visually distinctive project",
+          "Go, Nix",
+          "Consumer groups",
+          "WAL persistence",
         ],
       },
       portfolio: {
         type: "Strong Quest - Professional Showcase",
-        desc: "TypeScript portfolio deployed on Vercel and structured to present the rest of your work with accurate links and positioning.",
-        bullets: ["TypeScript", "Deployed on Vercel", "Central showcase hub"],
+        desc: "TypeScript and Next.js portfolio deployed on Vercel and structured as the central hub for projects, positioning, and contact paths.",
+        bullets: ["TypeScript", "Next.js", "Vercel showcase"],
       },
-      agenticSeoAnalyzer: {
-        type: "Technical Quest - Automation / AI",
-        desc: "Python project focused on agentic AI for SEO, showing practical interest in a very current automation and AI domain.",
-        bullets: [
-          "Python",
-          "Agentic AI for SEO",
-          "Current technical differentiator",
-        ],
+      containerManager: {
+        type: "Technical Quest - Docker Operations",
+        desc: "Full-stack web dashboard for Docker container management with a Python REST backend, React frontend, and operator-focused workflow UI.",
+        bullets: ["Python", "React", "Docker management"],
       },
-      proposalEngineDoe: {
-        type: "Technical Quest - Process Automation",
-        desc: "Real-world proposal generation use case that helps demonstrate business-oriented automation and applied engineering.",
-        bullets: ["Python", "Proposal generation", "Defined license"],
-      },
-      chronoOrion: {
-        type: "Technical Quest - Stack Breadth",
-        desc: "A solid Python project that reinforces stack variety and your ability to work beyond frontend and mobile interfaces.",
-        bullets: ["Python", "Meaningful project size", "Broader stack range"],
+      catDietPlanner: {
+        type: "Technical Quest - Cross-Platform Mobile",
+        desc: "Cross-platform mobile app in Flutter and Dart for cat nutrition tracking across multiple profiles, focused on UI flows and state handling.",
+        bullets: ["Flutter", "Dart", "State handling"],
       },
     },
+  },
+  experience: {
+    title: "EXPERIENCE",
+    items: [
+      {
+        role: "Software Developer",
+        company: "Prefeitura Municipal de Arraial do Cabo · Arraial do Cabo, RJ",
+        period: "Feb 2026 - Present",
+        bullets: [
+          "Leading full-stack development of the Diario Oficial Portal across Next.js frontend flows and Laravel backend services.",
+          "Designed and maintained REST APIs with JWT/OAuth2 authentication for dashboards and public-facing integrations.",
+          "Implemented database-backed workflows, Dockerized services, deployment routines, and migration processes.",
+          "Managed Linux server environments including NixOS and Ubuntu for development and production stability.",
+        ],
+      },
+      {
+        role: "Administrative Assistant",
+        company: "Prefeitura Municipal de Arraial do Cabo · Arraial do Cabo, RJ",
+        period: "May 2025 - Feb 2026",
+        bullets: [
+          "Coordinated internal processes and optimized digital workflows in a public-sector environment.",
+          "Transitioned into a software development role after demonstrating technical initiative.",
+        ],
+      },
+      {
+        role: "Reservations Agent",
+        company: "Hotel Balneario · Cabo Frio, RJ",
+        period: "Dec 2024 - Mar 2025",
+        bullets: [
+          "Managed guest reservations, availability, and communication across booking channels.",
+        ],
+      },
+    ],
   },
   guild: {
     title: "LET'S BUILD",
     intro:
-      "If you need Flutter, Dart, TypeScript, Next.js, Laravel, or Docker to take a product from idea to production, this is the best place to reach me.",
+      "If you need backend APIs, workflow automation, Linux operations, or production-minded full-stack delivery, this is the best place to reach me.",
     form: {
       sendMessage: "START A CONVERSATION",
       namePlaceholder: "YOUR NAME",

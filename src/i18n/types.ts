@@ -15,6 +15,7 @@ export interface Translations {
     status: string;
     skills: string;
     services: string;
+    experience: string;
     log: string;
     guild: string;
   };
@@ -57,14 +58,22 @@ export interface Translations {
   projects: {
     title: string;
     items: {
-      catDietPlanner: { type: string; desc: string; bullets: string[] };
-      gacha: { type: string; desc: string; bullets: string[] };
-      fractalRide: { type: string; desc: string; bullets: string[] };
+      repengine: { type: string; desc: string; bullets: string[] };
+      aiopsDesktop: { type: string; desc: string; bullets: string[] };
+      pulseGo: { type: string; desc: string; bullets: string[] };
       portfolio: { type: string; desc: string; bullets: string[] };
-      agenticSeoAnalyzer: { type: string; desc: string; bullets: string[] };
-      proposalEngineDoe: { type: string; desc: string; bullets: string[] };
-      chronoOrion: { type: string; desc: string; bullets: string[] };
+      containerManager: { type: string; desc: string; bullets: string[] };
+      catDietPlanner: { type: string; desc: string; bullets: string[] };
     };
+  };
+  experience: {
+    title: string;
+    items: {
+      role: string;
+      company: string;
+      period: string;
+      bullets: string[];
+    }[];
   };
   guild: {
     title: string;

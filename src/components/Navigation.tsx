@@ -17,6 +17,7 @@ export function Navigation({ activeSection, onNavigate }: NavigationProps) {
         { id: "about", label: t.nav.status },
         { id: "skills", label: t.nav.skills },
         { id: "services", label: t.nav.services },
+        { id: "experience", label: t.nav.experience },
         { id: "projects", label: t.nav.log },
         { id: "contact", label: t.nav.guild },
     ];
